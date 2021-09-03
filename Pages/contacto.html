@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Description meta tags -->
+    <meta name="keywords" content="dead, rabbit, contacto, comentario, consulta">
+    <meta name="description" content="Contactanos por cualquier consulta o comentario que tengas.">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- CSS nuestro -->
+    <link rel="stylesheet" href="../CSS/Styles.css">
+
+    <title>Contacto</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="container-fluid">
+     <div class="row justify-content-center">
+       <img class="header__logo col-12 animate__animated animate__backInDown" id="logo" src="../Assets/rabbit.jpeg" alt="logo">
+     </div>
+     <div class="row justify-content-center">
+       <h1 class="header__titulo col-12">Forma de contacto.</h1>
+     </div>
+     <div class="row justify-content-center">
+       <h2 class="header__subTitulo col-12">Escribinos, queremos conocerte!</h2>
+     </div>
+    </header>
+    <!-- nav -->
+    <nav class="sticky-top navegador__navegador navbar-nav navbar-expand-lg">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navi" aria-controls="navi" aria-expanded="false" aria-label="Toggle navigation">
+        <span><img class="navIcon" src="../Assets/hamMenu2.png" alt="menu"></span>
+      </button>
+      <div class="navbar-nav collapse navbar-collapse justify-content-around" id="navi">
+          <li class="navegador__item nav-item">
+            <a class="navegador__link" href="../index.html">inicio</a>
+          </li>
+          <li class="navegador__item nav-item">
+            <a class="navegador__link" href="nosotros.html">nosotros</a>
+          </li>
+           <li class="navegador__item nav-item">
+            <a class="navegador__link" href="productos.html">productos</a>
+          </li>
+          <li class="navegador__item nav-item">
+            <a class="navegador__link" href="#">contacto</a>
+          </li>
+          <li class="navegador__item nav-item">
+            <a class="navegador__link" href="medioAmbiente.html">medio ambiente</a>
+          </li>
+          <li class="navegador__item nav-item">
+            <a class="navegador__link" href="404.html">informacion legal</a>
+          </li>
+      </div>
+    </nav>
+    <!-- main -->
+    <div class="container-fluid row justify-content-center">
+      <form class="formulario__cuerpo 
+        col-lg-6 col-sm-12">
+        <div class="formulario__grupo form-group">
+          <label for="mail">Direccion Email</label>
+          <input type="email" class="formulario__entrada form-control" id="mail" placeholder="Tu mail aca!">
+        </div>
+        <div class="formulario__grupo form-group">
+          <label for="selector">Cual de nuestras cervezas es la que mas te gusta?</label>
+          <select class="form-control" id="selector">
+            <option class="formulario__option">ejemplo1</option>
+            <option class="formulario__option">ejemplo2</option>
+            <option class="formulario__option">ejemplo3</option>
+            <option class="formulario__option">ejemplo4</option>
+            <option class="formulario__option">ejemplo5</option>
+          </select>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Queres recibir novedades?
+          </label>
+        </div>
+        <div class="formulario__grupo form-group">
+          <label for="comentario">Envianos un comentario!</label>
+          <textarea class="form-control" id="comentario" rows="3"></textarea>
+        </div>
+        <div class="formulario__grupo form-group">
+          <input type="submit" value="enviar">
+          <input type="reset" value="limpiar">
+        </div>
+      </form>
+    </div>
+    <!-- footer -->
+    <footer class="container-fluid">
+      <div class="row justify-content-center">
+          <a class="footer__backTopButton col-2" href="#logo">back top</a>
+      </div>
+      <div class="ins row justify-content-center">
+          <a class="footer__logoIns col-1" href="https://www.instagram.com/?hl=es-la" target="_blank"><img class="footer__logoInsImg" src="../Assets/ins.png" alt="ins"></a>
+      </div>
+    </footer>
+    <!-- End footer -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+</html>

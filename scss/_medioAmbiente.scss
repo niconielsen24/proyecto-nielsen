@@ -1,0 +1,31 @@
+@import 'general';
+
+// scss
+
+.medioAmbiente{
+	&__cuerpo{
+		max-width: fit-content;
+		margin: 1rem;
+		border-radius: 1rem;
+		padding: 1rem;
+		color: white;
+		text-align: center;
+		line-height: 5rem;
+		@include parallax;
+	}
+	&__titulo{
+		text-transform: capitalize;
+		margin: 1rem;
+		background-color: $drCol;
+		padding: 1rem 0rem;
+		transform: skew(-10deg);
+	}
+	&__parrafo{
+		background-color: white;
+		border-radius: 1rem;
+		color: black;
+		margin: 2rem;
+		opacity: .8;
+		padding: 1rem;
+	}
+}

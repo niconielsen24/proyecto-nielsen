@@ -1,0 +1,172 @@
+/* variables */
+$drCol: rgb(154, 125, 10);
+$shCol: rgb(85, 87, 68);
+$brdrCol: rgb(120, 97, 8);
+$imgParallax: url(../Assets/BACK22.jpg);
+
+/*Imports*/ 
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
+// Mixin
+
+@mixin backTop{
+	text-decoration: none;
+	color: black;
+}
+@mixin sombra{
+	box:{
+		shadow: 0rem 1.5rem 6rem .3rem $shCol;
+	}
+}
+@mixin fuenteHeader($wsp,$lsp){
+	text-align: center;
+	word-spacing: $wsp;
+	letter-spacing: $lsp;
+}
+@mixin fuenteGen($size,$weight){
+	font:{
+		size: $size;
+		weight: $weight;
+	}
+}
+@mixin linkNav{
+	text-decoration: none;
+	color: black;
+}
+@mixin parallax{
+	background:{
+		image: $imgParallax;
+		attachment: fixed;
+		size: contain;
+		position: center;
+	}
+}
+
+
+
+/*SCSS*/ 
+*{
+	font-size: 62.5%;
+	list-style: none;
+	text-decoration: none;
+	font-family:'Nunito', sans-serif;
+}
+h1{
+	font:{
+		size:8rem;
+		family: 'UnifrakturMaguntia', cursive;
+	}
+	text:{
+		transform: capitalize;
+	}
+}
+h2{
+	@include fuenteGen(4rem,400);
+	text:{
+		transform: capitalize;
+	}
+}
+h4{
+	@include fuenteGen(2rem,400);
+}
+p{
+	@include fuenteGen(2rem,200)
+}
+.navegador__navegador{
+	background-color: white;
+	border:{
+		bottom: solid $drCol .4rem;
+	}
+}
+.navegador__item{
+	transition:all .3s;
+	font:{
+		size: 4rem;
+		weight: 200;
+		family: 'Nunito', sans-serif;
+	}
+
+	&:hover{
+	transform: scale(1.1);
+	}
+}
+a.navegador__link{
+	text-transform: capitalize;
+	&:link{
+		@include linkNav;
+		}
+	&:visited{
+		@include linkNav;
+		}
+	&:hover{
+		@include linkNav;
+		font-weight: 400;
+		}
+	&:active{
+		@include linkNav;
+		}
+}
+.header{
+	&__logo{
+		max-width: 20rem;
+		max-height: auto;
+		margin: 2rem;
+		border:solid $drCol .4rem
+		}
+	&__titulo{
+		@include fuenteHeader(2rem, 2rem);
+		}
+	&__subTitulo{
+		@include fuenteHeader(4rem, 2rem);
+		}
+}
+.footer{
+	&__backTopButton{
+	font:{
+		weight:400;
+		size:2rem;
+	}
+	transform: skew(-10deg);
+	background-color: $drCol;
+	border:solid $brdrCol .3rem;
+	text:{
+		transform: capitalize;
+		align: center;
+		}
+	transition: all .5s;
+	margin: 2rem;
+	padding: 1rem;
+	&:link{
+		@include backTop;
+		}
+	&:visited{
+		@include backTop;
+		}
+	&:hover{
+		@include backTop;
+		@include sombra;
+		transform: translate(0rem, -.5rem);
+		border:solid $brdrCol .6rem;
+	}
+	&:active{
+		text-decoration: none;
+		color: black;
+		}	
+	}
+	&__logoIns{
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+	&__logoInsImg{
+		border-radius: 2rem;
+		padding: 1rem;
+		background-color: $drCol;
+		transition: all .5s;
+		&:hover{
+			@include sombra;
+			transform: translate(0rem, -.5rem);
+		}
+	}
+}

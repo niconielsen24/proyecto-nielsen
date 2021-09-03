@@ -1,0 +1,46 @@
+@import 'general';
+
+.error{
+	&__error{
+		@include fuenteGen(8rem, 400);
+		text-align: center;
+		margin-top: 20rem;
+		border-radius: 6rem;
+		background: linear-gradient(145deg, #cacaca, #f0f0f0);
+		box-shadow:  2rem 2rem 3rem #7d7d7d, -16px -16px 32px #ffffff;
+	}
+	&__aclaracion{
+		@include fuenteGen(2rem, 400);
+		text-align: center;
+		padding: 2rem;
+		margin: 3rem;
+		border-radius: 63px;
+		background: linear-gradient(145deg, #cacaca, #f0f0f0);
+		box-shadow:  16px 16px 32px #7d7d7d, -16px -16px 32px #ffffff;
+	}
+	&__boton{
+		@include fuenteGen(2rem, 400);
+		text-align: center;
+		border-radius: 30% 70% 30% 70% / 65% 62% 38% 35%;
+		background-color: $drCol;
+		color: black;
+		text-transform: capitalize;
+		transition: all .5s;
+		padding: 2rem;
+		margin: 2rem;
+		&:link{
+			@include linkNav;
+		}
+		&:visited{
+			@include linkNav;
+		}
+		&:hover{
+			@include linkNav;
+			transform: scale(1.2);
+			border-radius: 19% 81% 52% 48% / 76% 19% 81% 24%;
+		}
+		&:active{
+			@include linkNav;
+		}
+	}
+}

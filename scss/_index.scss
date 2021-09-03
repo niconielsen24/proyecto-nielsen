@@ -1,0 +1,38 @@
+@import 'general';
+
+// scss
+
+.cuerpo{
+	&__cuerpo{
+		margin: 1rem;
+		border-radius: 1rem;
+		padding: 1rem;
+		color: white;
+		@include parallax;
+	}
+	&__titulo{
+		text-align: center;
+		letter-spacing: 1rem;
+		color: $drCol;
+		margin:{
+			top:1rem;
+		}
+	}
+	&__parrafo{
+		line-height: 5rem;
+	}
+	&__divisor{
+		background-color: $drCol;
+		transform: skew(-10deg);
+		margin: 1rem 0rem;
+		box-shadow: 0rem 1rem 2rem .2rem $shCol;
+		text:{
+			align: center;
+			transform: capitalize; 
+		}
+		font:{
+			family: 'UnifrakturMaguntia', cursive;
+			size: 4rem;
+		}
+	}
+} 

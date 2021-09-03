@@ -1,0 +1,14 @@
+@import 'general';
+
+// scss
+
+.productos{
+	&__imgProductos{
+		background-color: black;
+		border: solid .4rem black;
+		transition: all .5s;
+		&:hover{
+			border: solid .4rem $drCol;
+		}
+	}
+}
