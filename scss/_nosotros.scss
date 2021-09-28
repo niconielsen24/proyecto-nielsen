@@ -1,24 +1,11 @@
 @import 'general';
 
-// map
-
-$colorFondoUsers:(
-	user1: black,
-	user2: gray,
-	user3: $drCol
-);
-
 // mixin
 
-@mixin hovered($scale){
-	transform: scale($scale);
-	background-color: white;
-	color: black;
-}
-@mixin users{
-	padding: 1rem;
-	border-radius: 1rem;
-	background-color: $drCol;
+@mixin hovered{
+	border: solid white .4rem;
+	// background: linear-gradient(145deg, #f0f0f0, #cacaca);
+	box-shadow:  17px 17px 34px #969696, -17px -17px 34px #ffffff;
 }
 
 // scss
@@ -26,20 +13,19 @@ $colorFondoUsers:(
 .nosotros{
 	&__nosotros{
 		max-width: fit-content;
-		// overflow: hidden;
 		margin: 1rem;
 		border-radius: 1rem;
 		padding: 1rem;
-		color: white;
-		@include parallax;
+		// @include parallax;
 	}
 	&__argumentos{
 		padding: 1rem;
 		text-align: center;
 		border-radius: 1rem;
 		transition:all .5s;
+		border: solid $drCol .4rem;
 		&:hover{
-			@include hovered(1.03);
+			@include hovered;
 		}
 	}
 }
@@ -47,7 +33,7 @@ $colorFondoUsers:(
 	@extend.nosotros__argumentos;
 	margin: 1rem 0rem;
 		&:hover{
-			@include hovered(1.007);
+			@include hovered;
 		}	
 }
 .lista{
@@ -72,68 +58,11 @@ $colorFondoUsers:(
 	border-radius: 3rem;
 }
 
-@each $user, $color in $colorFondoUsers{
-	.nosotros__#{$user}{
-		background-color: $color;
-		margin: 1rem;
-		border-radius: 1rem;
-		padding: 1rem;
-		border: .4rem solid white;
-		color: white;
-	}
+.nosotros__user{
+	@include usersNosotros;
 }
 .nosotros__users--contenedor{
 	@include parallax;
 	border-radius: 1rem;
 	margin: 1rem;
-}
-
-.iframe{
-	&__iframe{
-		background-color: black;
-		padding: 2rem;
-		text-align: center;
-		border-radius: 1rem;
-		margin: 1rem;
-	}
-	&__encabezado{
-		color: white;
-		text-transform: capitalize;
-		padding: 1rem;
-		margin-bottom: 1rem;
-		background-color: $drCol;
-		transform: skew(-10deg);
-	}
-}
-.dropdown{
-	&__boton{
-		background-color: $drCol;
-		border: solid .3rem $brdrCol;
-		color: black;
-		border-radius: 0rem;
-		transform: skew(-10deg);
-		transition: all .5s;
-		&:hover{
-			background-color: $drCol;
-			transform: skew(0deg);
-			color: black;
-			border: solid .6rem $brdrCol;
-		}
-	}
-	&__expand{
-		background-color: black;
-		border-radius: 1rem;
-		padding: 1rem;
-	}
-	&__items{
-		@include fuenteGen(2rem,200);
-		font:{
-			color: white;
-			margin: 1rem 1rem;
-			}
-			&:hover{
-				color: black;
-				border-radius: 1rem;
-		}
-	}
 }
