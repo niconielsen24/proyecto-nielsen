@@ -443,30 +443,6 @@ a.navegador__link {
   border: .4rem solid white;
   color: white; }
 
-.nosotros__user4 {
-  background-color: black;
-  margin: 1rem;
-  border-radius: 1rem;
-  padding: 1rem;
-  border: .4rem solid white;
-  color: white; }
-
-.nosotros__user5 {
-  background-color: gray;
-  margin: 1rem;
-  border-radius: 1rem;
-  padding: 1rem;
-  border: .4rem solid white;
-  color: white; }
-
-.nosotros__user6 {
-  background-color: #9a7d0a;
-  margin: 1rem;
-  border-radius: 1rem;
-  padding: 1rem;
-  border: .4rem solid white;
-  color: white; }
-
 .nosotros__users--contenedor {
   background-image: url(../Assets/BACK22.jpg);
   background-attachment: fixed;
