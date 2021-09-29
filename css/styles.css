@@ -563,11 +563,30 @@ a.navegador__link {
     transform: translate(0rem, -0.5rem); }
 
 .productos__imgProductos {
-  background-color: black;
-  border: solid .4rem black;
-  transition: all .5s; }
+  margin: 3rem 1rem;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  transition: all .5s;
+  z-index: 2;
+  text-align: center;
+  bottom: 6.4rem;
+  right: 1.4rem;
+  position: relative; }
   .productos__imgProductos:hover {
-    border: solid 0.4rem #9a7d0a; }
+    opacity: 0; }
+
+.productos__producto {
+  margin: 3rem 1rem;
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  background: #e0e0e0;
+  box-shadow: inset 35px 35px 70px #a1a1a1, inset -35px -35px 70px #ffffff;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  border: solid grey .4rem; }
 
 /* variables */
 /*Imports*/
