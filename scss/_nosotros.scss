@@ -4,8 +4,8 @@
 
 @mixin hovered{
 	border: solid white .4rem;
-	// background: linear-gradient(145deg, #f0f0f0, #cacaca);
-	box-shadow:  17px 17px 34px #969696, -17px -17px 34px #ffffff;
+	background: #e0e0e0;
+	box-shadow:  32px 32px 63px #a1a1a1, -32px -32px 63px #ffffff;
 }
 
 // scss
@@ -13,7 +13,7 @@
 .nosotros{
 	&__nosotros{
 		max-width: fit-content;
-		margin: 1rem;
+		margin: 3rem 1rem;
 		border-radius: 1rem;
 		padding: 1rem;
 		// @include parallax;
@@ -22,11 +22,28 @@
 		padding: 1rem;
 		text-align: center;
 		border-radius: 1rem;
+		margin: 4rem 1rem;
 		transition:all .5s;
-		border: solid $drCol .4rem;
+		border: solid grey .4rem;
 		&:hover{
 			@include hovered;
 		}
+	}
+	&__descripcion{
+		@include parallax;
+		color: white;
+		padding: 2rem;
+		margin: 1rem;
+		border-radius: 1rem;
+		word-spacing: 1rem;
+		line-height: 4rem;
+		text-align: center;
+	}
+	&__titulos{
+		border-radius: 1rem;
+		padding: .5rem;
+		background: linear-gradient(145deg, #cacaca, #f0f0f0);
+		box-shadow:  7px 7px 14px #b1b1b1, -7px -7px 14px #ffffff;
 	}
 }
 .nosotros--valores{

@@ -376,7 +376,7 @@ a.navegador__link {
 
 .nosotros__nosotros {
   max-width: fit-content;
-  margin: 1rem;
+  margin: 3rem 1rem;
   border-radius: 1rem;
   padding: 1rem; }
 
@@ -384,17 +384,39 @@ a.navegador__link {
   padding: 1rem;
   text-align: center;
   border-radius: 1rem;
+  margin: 4rem 1rem;
   transition: all .5s;
-  border: solid #9a7d0a 0.4rem; }
+  border: solid grey .4rem; }
   .nosotros__argumentos:hover, .nosotros--valores:hover {
     border: solid white .4rem;
-    box-shadow: 17px 17px 34px #969696, -17px -17px 34px #ffffff; }
+    background: #e0e0e0;
+    box-shadow: 32px 32px 63px #a1a1a1, -32px -32px 63px #ffffff; }
+
+.nosotros__descripcion {
+  background-image: url(../Assets/BACK22.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+  color: white;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  word-spacing: 1rem;
+  line-height: 4rem;
+  text-align: center; }
+
+.nosotros__titulos {
+  border-radius: 1rem;
+  padding: .5rem;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 7px 7px 14px #b1b1b1, -7px -7px 14px #ffffff; }
 
 .nosotros--valores {
   margin: 1rem 0rem; }
   .nosotros--valores:hover {
     border: solid white .4rem;
-    box-shadow: 17px 17px 34px #969696, -17px -17px 34px #ffffff; }
+    background: #e0e0e0;
+    box-shadow: 32px 32px 63px #a1a1a1, -32px -32px 63px #ffffff; }
 
 .lista__lista {
   display: flex;
