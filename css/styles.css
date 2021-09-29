@@ -563,21 +563,25 @@ a.navegador__link {
     transform: translate(0rem, -0.5rem); }
 
 .productos__imgProductos {
-  margin: 3rem 1rem;
   width: 50rem;
   height: 50rem;
   border-radius: 50%;
+  background-color: black;
   transition: all .5s;
-  z-index: 2;
-  text-align: center;
-  bottom: 6.4rem;
-  right: 1.4rem;
+  z-index: 3;
+  bottom: 53rem;
+  left: 6.6rem;
   position: relative; }
   .productos__imgProductos:hover {
     opacity: 0; }
 
+.productos__fuente {
+  font-size: 8rem;
+  font-family: 'UnifrakturMaguntia', cursive; }
+
 .productos__producto {
-  margin: 3rem 1rem;
+  text-align: center;
+  margin: 3rem auto;
   width: 50rem;
   height: 50rem;
   border-radius: 50%;
@@ -587,6 +591,20 @@ a.navegador__link {
   position: relative;
   z-index: 1;
   border: solid grey .4rem; }
+
+.productos__nombre {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  top: 8rem;
+  color: white;
+  background-color: .productos__nombre drCol;
+  border-radius: 1rem; }
+
+.productoscontenedor {
+  position: relative;
+  top: 40rem;
+  left: 20rem; }
 
 /* variables */
 /*Imports*/
