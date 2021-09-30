@@ -3,18 +3,25 @@
 // scss
 
 $bgCol:(
-	"dorado": $drCol,
-	"gris": grey,
+	"dorado": white,
+	"gris": white,
 	"blanco": white
 	);
 
 @each $bg, $col in $bgCol {
 	.index__#{$bg}{
 		background-color: $col;
+		padding: 4rem 3rem;
 	}
 }
 
 .index{
+	&__rabbit{
+		max-width: 50rem;
+		max-height: auto;
+		position: relative;
+		transform: rotate(-20deg);
+	}
 	&__variedades{
 		outline: none;
 		border: none;

@@ -235,13 +235,22 @@ a.navegador__link {
     transform: translate(0rem, -0.5rem); }
 
 .index__dorado {
-  background-color: #9a7d0a; }
+  background-color: white;
+  padding: 4rem 3rem; }
 
 .index__gris {
-  background-color: grey; }
+  background-color: white;
+  padding: 4rem 3rem; }
 
 .index__blanco {
-  background-color: white; }
+  background-color: white;
+  padding: 4rem 3rem; }
+
+.index__rabbit {
+  max-width: 50rem;
+  max-height: auto;
+  position: relative;
+  transform: rotate(-20deg); }
 
 .index__variedades {
   outline: none;
