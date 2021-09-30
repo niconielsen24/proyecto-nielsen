@@ -2,14 +2,9 @@
 
 // scss
 
-$bgCol:(
-	"dorado": white,
-	"gris": white,
-	"blanco": white
-	);
 $desp:(
 	"top": 40rem,
-	"mid": -40rem,
+	"mid": -20rem,
 	"bot": 40rem
 	);
 
@@ -18,14 +13,18 @@ $desp:(
 		@include subTituloIndex($des);
 	}
 }
-@each $bg, $col in $bgCol {
-	.index__#{$bg}{
-		background-color: $col;
-		padding: 4rem 3rem;
-	}
-}
-
 .index{
+	&__seccion{
+		background-color: white;
+		padding: 4rem 3rem;
+		position: relative;
+		z-index: 3;
+		&--mid{
+			@extend .index__seccion;
+			z-index: 1;
+			height: 50rem;
+		}
+	}
 	&__titulo{
 		padding: 1rem;
 		text-align: center;
@@ -38,8 +37,30 @@ $desp:(
 		background: #e0e0e0;
 		box-shadow:  20px 20px 41px #7b7b7b, -20px -20px 41px #ffffff;
 		border-radius: 3rem;
-		padding: 1rem;
-		text-align: center;
+		padding: 2rem;
+		transition:all .5s;
+		&:hover{
+			box-shadow:  31px 31px 62px #808080, -31px -31px 62px #ffffff;
+		}
+		&--mid{
+			@extend .index__parrafo;
+			text-align: right;
+			position: relative;
+			top: 7rem;
+		}
+	}
+	&__parrafo1{
+		@include fuenteGen(4rem, 200);
+		position: fixed;
+		z-index: 2;
+		width: 70rem;
+		height: 40rem;
+		top: 20rem;
+		bottom: 2rem;
+		color: white;
+		background: #272727;
+		padding: 10rem 5rem 5rem 3rem;
+		text-align: left;
 	}
 	&__rabbit{
 		max-width: 40rem;
@@ -48,30 +69,5 @@ $desp:(
 		z-index: 1;
 		overflow: hidden;
 		left: 10rem;
-	}
-	&__beerImg{
-		border-radius: 45%;
-	}
-	&__variedades{
-		outline: none;
-		border: none;
-		width: 15rem;
-		height: 15rem;
-		margin: 3rem;
-		@include fuenteGen(4rem, 200);
-		border-radius: 50%;
-		background: #e0e0e0;
-		box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-		transition:all .3s;
-		&:hover{
-			background: #e0e0e0;
-			box-shadow:  20px 20px 60px #d0d0d0, -20px -20px 60px #f0f0f0;
-			@include fuenteGen(3.8rem, 200);
-		}
-		&:active{
-			background: linear-gradient(145deg, #cacaca, #f0f0f0);
-			box-shadow:  20px 20px 60px #c1c1c1, -20px -20px 60px #ffffff;
-			@include fuenteGen(3.5rem, 200);
-		}
 	}
 }

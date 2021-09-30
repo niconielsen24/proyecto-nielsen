@@ -25,7 +25,7 @@
   </head>
   <body>
     <!-- nav -->
-    <nav data-aos="fadeInDown" data-aos-duration="500" class="sticky-top navegador__navegador navbar-nav navbar-expand-lg">
+    <nav data-aos="fadeIn" data-aos-duration="500" class="sticky-top navegador__navegador navbar-nav navbar-expand-lg">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navi" aria-controls="navi" aria-expanded="false" aria-label="Toggle navigation">
         <span><img class="navIcon" src="Assets/hamMenu2.png" alt="menu"></span>
       </button>
@@ -50,25 +50,27 @@
     <!-- main -->
     <main>
       <div class="container-fluid">
-        <div class="row justify-content-around index__dorado">
+        <div class="row justify-content-around index__seccion">
           <div class="col-lg-5 row align-items-center justify-content-center">
             <h1 class="index__titulo">Dead Rabbit Beer Inc.</h1>
-            <h2 class="index__subtitulo index__subTitulo--top animate__animated animate__slideInLeft">El verdadero sabor de la cerveza.</h2>
+            <h2 class="index__subTitulo index__subTitulo--top animate__animated animate__slideInLeft">El verdadero sabor de la cerveza.</h2>
           </div>
           <div class="col-lg-5">
             <img class="animate__animated animate__rotateInDownRight index__rabbit" src="Assets/rabbit.jpeg" alt="#">
           </div>
         </div>
-        <div class="row justify-content-around index__gris">
+        <div class="row">
           <div class="col-lg-5">
-            <img class="index__beerImg" src="Assets/beer42.png" alt="#">
-          </div>
-          <div class="col-lg-5 row align-items-center justify-content-center">
-            <h2 class="index__subTitulo--mid">Nuestra cultura.</h2>
-            <p data-aos="fadeIn" data-aos-delay="300" data-aos-duration="1000" class="index__parrafo">Grupo de personas totalmente apasionada por la cerveza...</p>
+           <p class="index__parrafo1">La cultura de la cerveza es algo que apasiona a mucha gente alrededor del mundo, y nosotros...</p>
           </div>
         </div>
-        <div class="row justify-content-around index__blanco">
+        <div class="row justify-content-end align-items-start index__seccion index__seccion--mid">
+          <div class="col-lg-5 row justify-content-center">
+            <h2 class="index__subTitulo--mid">Nuestra cultura.</h2>
+            <p data-aos="fadeIn" data-aos-delay="300" data-aos-duration="1000" class="align-self-end index__parrafo index__parrafo--mid">...somos un grupo de personas totalmente apasionada por la cerveza.</p>
+          </div>
+        </div>
+        <div class="row justify-content-around index__seccion">
           <div class="col-lg-5 row align-items-center justify-content-center">
             <h2 class="index__subTitulo--bot">Hecha con cariño.</h2>
             <p data-aos="fadeIn" data-aos-delay="300" data-aos-duration="1000" class="index__parrafo">Elaborada con materia prima nacional, cooperacion de la industria local, y todo el cariño de nuestro staff.</p>
@@ -76,27 +78,24 @@
           <div class="col-lg-5">
             <img src="Assets/unnamed.jpg" alt="#">
           </div>
-          <div class="row justify-content-center"> 
-            <h2 class="col-12">Nuestras variedades</h2>
-            <button class="index__variedades col-2"><a href="#">IPA</a></button>
-            <button class="index__variedades col-2"><a href="#">APA</a></button>
-            <button class="index__variedades col-2"><a href="#">Bock</a></button>
-            <button class="index__variedades col-2"><a href="#">Stout</a></button>
-            <button class="index__variedades col-2"><a href="#">Amber lager</a></button>
-            <button class="index__variedades col-2"><a href="#">Pilsener</a></button>
-            <button class="index__variedades col-2"><a href="#">Bohemian Pilsener</a></button>
-            <button class="index__variedades col-2"><a href="#">American lager</a></button>
-          </div>
         </div>
       </div>
     </main>
     <!-- footer -->
     <footer class="container-fluid">
-      <div class="row justify-content-center">
-          <a class="footer__backTopButton col-2" href="#logo">back top</a>
-      </div>
-      <div class="footer__logoIns row justify-content-center">
-          <a class="col-1" href="https://www.instagram.com/?hl=es-la" target="_blank"><img class="footer__logoInsImg" src="Assets/ins.png" alt="ins"></a>
+      <div class="footer__footer align-items-center row justify-content-end">
+        <div class="footer__autor col-6">
+          <p class="footer__autor--p">©Dead rabbit beer inc | Sitio por <a target="_blank" class="footer__nielsenNicolas" href="https://www.linkedin.com/in/nicolas-nielsen-4486aa171/">Nicolas Nielsen</a></p>
+        </div>
+        <div class="footer__logoIns">
+          <a  href="https://www.instagram.com/?hl=es-la" target="_blank"><img class="footer__logoInsImg" src="Assets/ins.png" alt="ins"></a>
+        </div>
+        <div class="footer__logoIns">
+            <a  href="https://es-la.facebook.com/" target="_blank"><img class="footer__logoInsImg" src="Assets/ins.png" alt="ins"></a>
+        </div>
+        <div class="footer__logoIns">
+            <a  href="https://twitter.com/?lang=es" target="_blank"><img class="footer__logoInsImg" src="Assets/ins.png" alt="ins"></a>
+        </div>
       </div>
     </footer>
     <!-- End footer -->

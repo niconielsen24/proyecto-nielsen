@@ -1,7 +1,7 @@
 /* variables */
 $drCol: rgb(154, 125, 10);
 $shCol: rgb(85, 87, 68);
-$brdrCol: rgb(120, 97, 8);
+$bgCol: #272727;
 $imgParallax: url(../Assets/BACK22.jpg);
 
 /*Imports*/ 
@@ -11,15 +11,6 @@ $imgParallax: url(../Assets/BACK22.jpg);
 
 // Mixin
 
-@mixin backTop{
-	text-decoration: none;
-	color: black;
-}
-@mixin sombra{
-	box:{
-		shadow: 0rem 1.5rem 6rem .3rem $shCol;
-	}
-}
 @mixin fuenteHeader($wsp,$lsp){
 	text-align: center;
 	word-spacing: $wsp;
@@ -61,11 +52,11 @@ $imgParallax: url(../Assets/BACK22.jpg);
 	@include fuenteGen(4rem, 400);
 	word-spacing: 3rem;
 	padding: 1rem 10rem;
-	background-color: white;
+	color: white;
+	background-color: $bgCol;
 	position: relative;
 	text-align: center;
 	z-index: 10;
-	border-radius: 2rem;
 	left: $desplazamiento;
 }
 
@@ -149,50 +140,42 @@ a.navegador__link{
 		}
 }
 .footer{
-	&__backTopButton{
-	font:{
-		weight:400;
-		size:2rem;
-	}
-	transform: skew(-10deg);
-	background-color: $drCol;
-	border:solid $brdrCol .3rem;
-	text:{
-		transform: capitalize;
-		align: center;
-		}
-	transition: all .5s;
-	margin: 2rem;
-	padding: 1rem;
-	&:link{
-		@include backTop;
-		}
-	&:visited{
-		@include backTop;
-		}
-	&:hover{
-		@include backTop;
-		@include sombra;
-		transform: translate(0rem, -.5rem);
-		border:solid $brdrCol .6rem;
-	}
-	&:active{
-		text-decoration: none;
-		color: black;
-		}	
+	&__footer{
+		background-color: $drCol;
+		height: 15rem; 
 	}
 	&__logoIns{
 		text-align: center;
-		margin-bottom: 2rem;
+		margin: 2rem;
 	}
 	&__logoInsImg{
 		border-radius: 2rem;
 		padding: 1rem;
 		background-color: $drCol;
 		transition: all .5s;
-		&:hover{
-			@include sombra;
-			transform: translate(0rem, -.5rem);
+	}
+	&__autor{
+		position: relative;
+		right: 45rem;
+		&--p{
+			color: black;
+		font-size: 3rem;
+		}
+	}
+	&__nielsenNicolas{
+		@include fuenteGen(3rem,200);
+		color: black;
+		&:link{
+		@include linkNav;
+		}
+	&:visited{
+		@include linkNav;
+		}
+	&:hover{
+		@include linkNav;
+		}
+	&:active{
+		@include linkNav;
 		}
 	}
 }

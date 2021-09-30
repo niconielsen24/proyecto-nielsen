@@ -83,45 +83,43 @@ a.navegador__link {
   word-spacing: 4rem;
   letter-spacing: 2rem; }
 
-.footer__backTopButton {
-  font-weight: 400;
-  font-size: 2rem;
-  transform: skew(-10deg);
+.footer__footer {
   background-color: #9a7d0a;
-  border: solid #786108 0.3rem;
-  text-transform: capitalize;
-  text-align: center;
-  transition: all .5s;
-  margin: 2rem;
-  padding: 1rem; }
-  .footer__backTopButton:link {
-    text-decoration: none;
-    color: black; }
-  .footer__backTopButton:visited {
-    text-decoration: none;
-    color: black; }
-  .footer__backTopButton:hover {
-    text-decoration: none;
-    color: black;
-    box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
-    transform: translate(0rem, -0.5rem);
-    border: solid #786108 0.6rem; }
-  .footer__backTopButton:active {
-    text-decoration: none;
-    color: black; }
+  height: 15rem; }
 
 .footer__logoIns {
   text-align: center;
-  margin-bottom: 2rem; }
+  margin: 2rem; }
 
 .footer__logoInsImg {
   border-radius: 2rem;
   padding: 1rem;
   background-color: #9a7d0a;
   transition: all .5s; }
-  .footer__logoInsImg:hover {
-    box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
-    transform: translate(0rem, -0.5rem); }
+
+.footer__autor {
+  position: relative;
+  right: 45rem; }
+  .footer__autor--p {
+    color: black;
+    font-size: 3rem; }
+
+.footer__nielsenNicolas {
+  font-size: 3rem;
+  font-weight: 200;
+  color: black; }
+  .footer__nielsenNicolas:link {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:visited {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:hover {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:active {
+    text-decoration: none;
+    color: black; }
 
 /* variables */
 /*Imports*/
@@ -194,56 +192,54 @@ a.navegador__link {
   word-spacing: 4rem;
   letter-spacing: 2rem; }
 
-.footer__backTopButton {
-  font-weight: 400;
-  font-size: 2rem;
-  transform: skew(-10deg);
+.footer__footer {
   background-color: #9a7d0a;
-  border: solid #786108 0.3rem;
-  text-transform: capitalize;
-  text-align: center;
-  transition: all .5s;
-  margin: 2rem;
-  padding: 1rem; }
-  .footer__backTopButton:link {
-    text-decoration: none;
-    color: black; }
-  .footer__backTopButton:visited {
-    text-decoration: none;
-    color: black; }
-  .footer__backTopButton:hover {
-    text-decoration: none;
-    color: black;
-    box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
-    transform: translate(0rem, -0.5rem);
-    border: solid #786108 0.6rem; }
-  .footer__backTopButton:active {
-    text-decoration: none;
-    color: black; }
+  height: 15rem; }
 
 .footer__logoIns {
   text-align: center;
-  margin-bottom: 2rem; }
+  margin: 2rem; }
 
 .footer__logoInsImg {
   border-radius: 2rem;
   padding: 1rem;
   background-color: #9a7d0a;
   transition: all .5s; }
-  .footer__logoInsImg:hover {
-    box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
-    transform: translate(0rem, -0.5rem); }
+
+.footer__autor {
+  position: relative;
+  right: 45rem; }
+  .footer__autor--p {
+    color: black;
+    font-size: 3rem; }
+
+.footer__nielsenNicolas {
+  font-size: 3rem;
+  font-weight: 200;
+  color: black; }
+  .footer__nielsenNicolas:link {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:visited {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:hover {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:active {
+    text-decoration: none;
+    color: black; }
 
 .index__subTitulo--top {
   font-size: 4rem;
   font-weight: 400;
   word-spacing: 3rem;
   padding: 1rem 10rem;
-  background-color: white;
+  color: white;
+  background-color: #272727;
   position: relative;
   text-align: center;
   z-index: 10;
-  border-radius: 2rem;
   left: 40rem; }
 
 .index__subTitulo--mid {
@@ -251,36 +247,33 @@ a.navegador__link {
   font-weight: 400;
   word-spacing: 3rem;
   padding: 1rem 10rem;
-  background-color: white;
+  color: white;
+  background-color: #272727;
   position: relative;
   text-align: center;
   z-index: 10;
-  border-radius: 2rem;
-  left: -40rem; }
+  left: -20rem; }
 
 .index__subTitulo--bot {
   font-size: 4rem;
   font-weight: 400;
   word-spacing: 3rem;
   padding: 1rem 10rem;
-  background-color: white;
+  color: white;
+  background-color: #272727;
   position: relative;
   text-align: center;
   z-index: 10;
-  border-radius: 2rem;
   left: 40rem; }
 
-.index__dorado {
+.index__seccion, .index__seccion--mid {
   background-color: white;
-  padding: 4rem 3rem; }
-
-.index__gris {
-  background-color: white;
-  padding: 4rem 3rem; }
-
-.index__blanco {
-  background-color: white;
-  padding: 4rem 3rem; }
+  padding: 4rem 3rem;
+  position: relative;
+  z-index: 3; }
+  .index__seccion--mid {
+    z-index: 1;
+    height: 50rem; }
 
 .index__titulo {
   padding: 1rem;
@@ -289,14 +282,34 @@ a.navegador__link {
   background: #e0e0e0;
   box-shadow: 20px 20px 60px #5a5a5a, -20px -20px 60px #ffffff; }
 
-.index__parrafo {
+.index__parrafo, .index__parrafo--mid {
   font-size: 4rem;
   font-weight: 200;
   background: #e0e0e0;
   box-shadow: 20px 20px 41px #7b7b7b, -20px -20px 41px #ffffff;
   border-radius: 3rem;
-  padding: 1rem;
-  text-align: center; }
+  padding: 2rem;
+  transition: all .5s; }
+  .index__parrafo:hover, .index__parrafo--mid:hover {
+    box-shadow: 31px 31px 62px #808080, -31px -31px 62px #ffffff; }
+  .index__parrafo--mid {
+    text-align: right;
+    position: relative;
+    top: 7rem; }
+
+.index__parrafo1 {
+  font-size: 4rem;
+  font-weight: 200;
+  position: fixed;
+  z-index: 2;
+  width: 70rem;
+  height: 40rem;
+  top: 20rem;
+  bottom: 2rem;
+  color: white;
+  background: #272727;
+  padding: 10rem 5rem 5rem 3rem;
+  text-align: left; }
 
 .index__rabbit {
   max-width: 40rem;
@@ -306,32 +319,6 @@ a.navegador__link {
   overflow: hidden;
   left: 10rem; }
 
-.index__beerImg {
-  border-radius: 45%; }
-
-.index__variedades {
-  outline: none;
-  border: none;
-  width: 15rem;
-  height: 15rem;
-  margin: 3rem;
-  font-size: 4rem;
-  font-weight: 200;
-  border-radius: 50%;
-  background: #e0e0e0;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-  transition: all .3s; }
-  .index__variedades:hover {
-    background: #e0e0e0;
-    box-shadow: 20px 20px 60px #d0d0d0, -20px -20px 60px #f0f0f0;
-    font-size: 3.8rem;
-    font-weight: 200; }
-  .index__variedades:active {
-    background: linear-gradient(145deg, #cacaca, #f0f0f0);
-    box-shadow: 20px 20px 60px #c1c1c1, -20px -20px 60px #ffffff;
-    font-size: 3.5rem;
-    font-weight: 200; }
-
 /* variables */
 /*Imports*/
 /*SCSS*/
@@ -403,45 +390,43 @@ a.navegador__link {
   word-spacing: 4rem;
   letter-spacing: 2rem; }
 
-.footer__backTopButton {
-  font-weight: 400;
-  font-size: 2rem;
-  transform: skew(-10deg);
+.footer__footer {
   background-color: #9a7d0a;
-  border: solid #786108 0.3rem;
-  text-transform: capitalize;
-  text-align: center;
-  transition: all .5s;
-  margin: 2rem;
-  padding: 1rem; }
-  .footer__backTopButton:link {
-    text-decoration: none;
-    color: black; }
-  .footer__backTopButton:visited {
-    text-decoration: none;
-    color: black; }
-  .footer__backTopButton:hover {
-    text-decoration: none;
-    color: black;
-    box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
-    transform: translate(0rem, -0.5rem);
-    border: solid #786108 0.6rem; }
-  .footer__backTopButton:active {
-    text-decoration: none;
-    color: black; }
+  height: 15rem; }
 
 .footer__logoIns {
   text-align: center;
-  margin-bottom: 2rem; }
+  margin: 2rem; }
 
 .footer__logoInsImg {
   border-radius: 2rem;
   padding: 1rem;
   background-color: #9a7d0a;
   transition: all .5s; }
-  .footer__logoInsImg:hover {
-    box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
-    transform: translate(0rem, -0.5rem); }
+
+.footer__autor {
+  position: relative;
+  right: 45rem; }
+  .footer__autor--p {
+    color: black;
+    font-size: 3rem; }
+
+.footer__nielsenNicolas {
+  font-size: 3rem;
+  font-weight: 200;
+  color: black; }
+  .footer__nielsenNicolas:link {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:visited {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:hover {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:active {
+    text-decoration: none;
+    color: black; }
 
 .nosotros__nosotros {
   max-width: fit-content;
@@ -591,45 +576,43 @@ a.navegador__link {
   word-spacing: 4rem;
   letter-spacing: 2rem; }
 
-.footer__backTopButton {
-  font-weight: 400;
-  font-size: 2rem;
-  transform: skew(-10deg);
+.footer__footer {
   background-color: #9a7d0a;
-  border: solid #786108 0.3rem;
-  text-transform: capitalize;
-  text-align: center;
-  transition: all .5s;
-  margin: 2rem;
-  padding: 1rem; }
-  .footer__backTopButton:link {
-    text-decoration: none;
-    color: black; }
-  .footer__backTopButton:visited {
-    text-decoration: none;
-    color: black; }
-  .footer__backTopButton:hover {
-    text-decoration: none;
-    color: black;
-    box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
-    transform: translate(0rem, -0.5rem);
-    border: solid #786108 0.6rem; }
-  .footer__backTopButton:active {
-    text-decoration: none;
-    color: black; }
+  height: 15rem; }
 
 .footer__logoIns {
   text-align: center;
-  margin-bottom: 2rem; }
+  margin: 2rem; }
 
 .footer__logoInsImg {
   border-radius: 2rem;
   padding: 1rem;
   background-color: #9a7d0a;
   transition: all .5s; }
-  .footer__logoInsImg:hover {
-    box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
-    transform: translate(0rem, -0.5rem); }
+
+.footer__autor {
+  position: relative;
+  right: 45rem; }
+  .footer__autor--p {
+    color: black;
+    font-size: 3rem; }
+
+.footer__nielsenNicolas {
+  font-size: 3rem;
+  font-weight: 200;
+  color: black; }
+  .footer__nielsenNicolas:link {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:visited {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:hover {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:active {
+    text-decoration: none;
+    color: black; }
 
 .productos__imgProductos {
   width: 50rem;
@@ -744,45 +727,43 @@ a.navegador__link {
   word-spacing: 4rem;
   letter-spacing: 2rem; }
 
-.footer__backTopButton {
-  font-weight: 400;
-  font-size: 2rem;
-  transform: skew(-10deg);
+.footer__footer {
   background-color: #9a7d0a;
-  border: solid #786108 0.3rem;
-  text-transform: capitalize;
-  text-align: center;
-  transition: all .5s;
-  margin: 2rem;
-  padding: 1rem; }
-  .footer__backTopButton:link {
-    text-decoration: none;
-    color: black; }
-  .footer__backTopButton:visited {
-    text-decoration: none;
-    color: black; }
-  .footer__backTopButton:hover {
-    text-decoration: none;
-    color: black;
-    box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
-    transform: translate(0rem, -0.5rem);
-    border: solid #786108 0.6rem; }
-  .footer__backTopButton:active {
-    text-decoration: none;
-    color: black; }
+  height: 15rem; }
 
 .footer__logoIns {
   text-align: center;
-  margin-bottom: 2rem; }
+  margin: 2rem; }
 
 .footer__logoInsImg {
   border-radius: 2rem;
   padding: 1rem;
   background-color: #9a7d0a;
   transition: all .5s; }
-  .footer__logoInsImg:hover {
-    box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
-    transform: translate(0rem, -0.5rem); }
+
+.footer__autor {
+  position: relative;
+  right: 45rem; }
+  .footer__autor--p {
+    color: black;
+    font-size: 3rem; }
+
+.footer__nielsenNicolas {
+  font-size: 3rem;
+  font-weight: 200;
+  color: black; }
+  .footer__nielsenNicolas:link {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:visited {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:hover {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:active {
+    text-decoration: none;
+    color: black; }
 
 .formulario__cuerpo {
   background-color: black;
@@ -877,45 +858,43 @@ a.navegador__link {
   word-spacing: 4rem;
   letter-spacing: 2rem; }
 
-.footer__backTopButton {
-  font-weight: 400;
-  font-size: 2rem;
-  transform: skew(-10deg);
+.footer__footer {
   background-color: #9a7d0a;
-  border: solid #786108 0.3rem;
-  text-transform: capitalize;
-  text-align: center;
-  transition: all .5s;
-  margin: 2rem;
-  padding: 1rem; }
-  .footer__backTopButton:link {
-    text-decoration: none;
-    color: black; }
-  .footer__backTopButton:visited {
-    text-decoration: none;
-    color: black; }
-  .footer__backTopButton:hover {
-    text-decoration: none;
-    color: black;
-    box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
-    transform: translate(0rem, -0.5rem);
-    border: solid #786108 0.6rem; }
-  .footer__backTopButton:active {
-    text-decoration: none;
-    color: black; }
+  height: 15rem; }
 
 .footer__logoIns {
   text-align: center;
-  margin-bottom: 2rem; }
+  margin: 2rem; }
 
 .footer__logoInsImg {
   border-radius: 2rem;
   padding: 1rem;
   background-color: #9a7d0a;
   transition: all .5s; }
-  .footer__logoInsImg:hover {
-    box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
-    transform: translate(0rem, -0.5rem); }
+
+.footer__autor {
+  position: relative;
+  right: 45rem; }
+  .footer__autor--p {
+    color: black;
+    font-size: 3rem; }
+
+.footer__nielsenNicolas {
+  font-size: 3rem;
+  font-weight: 200;
+  color: black; }
+  .footer__nielsenNicolas:link {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:visited {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:hover {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:active {
+    text-decoration: none;
+    color: black; }
 
 .medioAmbiente__cuerpo {
   max-width: fit-content;
@@ -1016,45 +995,43 @@ a.navegador__link {
   word-spacing: 4rem;
   letter-spacing: 2rem; }
 
-.footer__backTopButton {
-  font-weight: 400;
-  font-size: 2rem;
-  transform: skew(-10deg);
+.footer__footer {
   background-color: #9a7d0a;
-  border: solid #786108 0.3rem;
-  text-transform: capitalize;
-  text-align: center;
-  transition: all .5s;
-  margin: 2rem;
-  padding: 1rem; }
-  .footer__backTopButton:link {
-    text-decoration: none;
-    color: black; }
-  .footer__backTopButton:visited {
-    text-decoration: none;
-    color: black; }
-  .footer__backTopButton:hover {
-    text-decoration: none;
-    color: black;
-    box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
-    transform: translate(0rem, -0.5rem);
-    border: solid #786108 0.6rem; }
-  .footer__backTopButton:active {
-    text-decoration: none;
-    color: black; }
+  height: 15rem; }
 
 .footer__logoIns {
   text-align: center;
-  margin-bottom: 2rem; }
+  margin: 2rem; }
 
 .footer__logoInsImg {
   border-radius: 2rem;
   padding: 1rem;
   background-color: #9a7d0a;
   transition: all .5s; }
-  .footer__logoInsImg:hover {
-    box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
-    transform: translate(0rem, -0.5rem); }
+
+.footer__autor {
+  position: relative;
+  right: 45rem; }
+  .footer__autor--p {
+    color: black;
+    font-size: 3rem; }
+
+.footer__nielsenNicolas {
+  font-size: 3rem;
+  font-weight: 200;
+  color: black; }
+  .footer__nielsenNicolas:link {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:visited {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:hover {
+    text-decoration: none;
+    color: black; }
+  .footer__nielsenNicolas:active {
+    text-decoration: none;
+    color: black; }
 
 .error__error {
   font-size: 8rem;
