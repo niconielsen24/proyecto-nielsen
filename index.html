@@ -15,26 +15,17 @@
     <!-- animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- CSS nuestro -->
     <link rel="stylesheet" href="css/styles.css">
 
     <title>Inicio</title>
   </head>
   <body>
-    <!-- header -->
-    <!-- <header class="container-fluid">
-     <div class="row justify-content-center">
-       <img class="header__logo col-12 animate__animated animate__backInDown" id="logo" src="Assets/rabbit.jpeg" alt="logo">
-     </div>
-     <div class="row">
-       <h1 class="header__titulo col-12">Dead rabbit beer inc.</h1>
-     </div>
-     <div class="row">
-       <h2 class="header__subTitulo col-12">the true feeling of beer</h2>
-     </div>
-    </header> -->
     <!-- nav -->
-    <nav class="sticky-top navegador__navegador navbar-nav navbar-expand-lg">
+    <nav data-aos="fadeInDown" data-aos-duration="500" class="sticky-top navegador__navegador navbar-nav navbar-expand-lg">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navi" aria-controls="navi" aria-expanded="false" aria-label="Toggle navigation">
         <span><img class="navIcon" src="Assets/hamMenu2.png" alt="menu"></span>
       </button>
@@ -61,26 +52,26 @@
       <div class="container-fluid">
         <div class="row justify-content-around index__dorado">
           <div class="col-lg-5 row align-items-center justify-content-center">
-            <h1>Dead Rabbit Beer Inc.</h1>
-            <h2>El verdadero sabor de la cerveza.</h2>
+            <h1 class="index__titulo">Dead Rabbit Beer Inc.</h1>
+            <h2 class="index__subtitulo index__subTitulo--top animate__animated animate__slideInLeft">El verdadero sabor de la cerveza.</h2>
           </div>
           <div class="col-lg-5">
-            <img class="index__rabbit" src="Assets/rabbit.jpeg" alt="#">
+            <img class="animate__animated animate__rotateInDownRight index__rabbit" src="Assets/rabbit.jpeg" alt="#">
           </div>
         </div>
         <div class="row justify-content-around index__gris">
           <div class="col-lg-5">
-            <img src="Assets/beer.jpg" alt="#">
+            <img class="index__beerImg" src="Assets/beer42.png" alt="#">
           </div>
           <div class="col-lg-5 row align-items-center justify-content-center">
-            <h2>Nuestra cultura.</h2>
-            <p>Grupo de personas totalmente apasionada por la cerveza...</p>
+            <h2 class="index__subTitulo--mid">Nuestra cultura.</h2>
+            <p data-aos="fadeIn" data-aos-delay="300" data-aos-duration="1000" class="index__parrafo">Grupo de personas totalmente apasionada por la cerveza...</p>
           </div>
         </div>
         <div class="row justify-content-around index__blanco">
           <div class="col-lg-5 row align-items-center justify-content-center">
-            <h2>Hecha con cariño.</h2>
-            <p>Elaborada con materia prima nacional, cooperacion de la industria local, y todo el cariño de nuestro staff.</p>
+            <h2 class="index__subTitulo--bot">Hecha con cariño.</h2>
+            <p data-aos="fadeIn" data-aos-delay="300" data-aos-duration="1000" class="index__parrafo">Elaborada con materia prima nacional, cooperacion de la industria local, y todo el cariño de nuestro staff.</p>
           </div>
           <div class="col-lg-5">
             <img src="Assets/unnamed.jpg" alt="#">
@@ -112,5 +103,10 @@
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

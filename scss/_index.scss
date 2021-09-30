@@ -7,7 +7,17 @@ $bgCol:(
 	"gris": white,
 	"blanco": white
 	);
+$desp:(
+	"top": 40rem,
+	"mid": -40rem,
+	"bot": 40rem
+	);
 
+@each $name, $des in $desp {
+	.index__subTitulo--#{$name}{
+		@include subTituloIndex($des);
+	}
+}
 @each $bg, $col in $bgCol {
 	.index__#{$bg}{
 		background-color: $col;
@@ -16,11 +26,31 @@ $bgCol:(
 }
 
 .index{
+	&__titulo{
+		padding: 1rem;
+		text-align: center;
+		border-radius: 4rem;
+		background: #e0e0e0;
+		box-shadow:  20px 20px 60px #5a5a5a, -20px -20px 60px #ffffff;
+	}
+	&__parrafo{
+		@include fuenteGen(4rem, 200);
+		background: #e0e0e0;
+		box-shadow:  20px 20px 41px #7b7b7b, -20px -20px 41px #ffffff;
+		border-radius: 3rem;
+		padding: 1rem;
+		text-align: center;
+	}
 	&__rabbit{
-		max-width: 50rem;
+		max-width: 40rem;
 		max-height: auto;
 		position: relative;
-		transform: rotate(-20deg);
+		z-index: 1;
+		overflow: hidden;
+		left: 10rem;
+	}
+	&__beerImg{
+		border-radius: 45%;
 	}
 	&__variedades{
 		outline: none;

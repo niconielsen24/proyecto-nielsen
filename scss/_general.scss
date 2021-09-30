@@ -57,6 +57,17 @@ $imgParallax: url(../Assets/BACK22.jpg);
 @mixin misionNosotros{
 	@include nosotros;
 }
+@mixin subTituloIndex($desplazamiento,){
+	@include fuenteGen(4rem, 400);
+	word-spacing: 3rem;
+	padding: 1rem 10rem;
+	background-color: white;
+	position: relative;
+	text-align: center;
+	z-index: 10;
+	border-radius: 2rem;
+	left: $desplazamiento;
+}
 
 
 

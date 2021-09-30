@@ -234,6 +234,42 @@ a.navegador__link {
     box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
     transform: translate(0rem, -0.5rem); }
 
+.index__subTitulo--top {
+  font-size: 4rem;
+  font-weight: 400;
+  word-spacing: 3rem;
+  padding: 1rem 10rem;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  border-radius: 2rem;
+  left: 40rem; }
+
+.index__subTitulo--mid {
+  font-size: 4rem;
+  font-weight: 400;
+  word-spacing: 3rem;
+  padding: 1rem 10rem;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  border-radius: 2rem;
+  left: -40rem; }
+
+.index__subTitulo--bot {
+  font-size: 4rem;
+  font-weight: 400;
+  word-spacing: 3rem;
+  padding: 1rem 10rem;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+  border-radius: 2rem;
+  left: 40rem; }
+
 .index__dorado {
   background-color: white;
   padding: 4rem 3rem; }
@@ -246,11 +282,32 @@ a.navegador__link {
   background-color: white;
   padding: 4rem 3rem; }
 
+.index__titulo {
+  padding: 1rem;
+  text-align: center;
+  border-radius: 4rem;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #5a5a5a, -20px -20px 60px #ffffff; }
+
+.index__parrafo {
+  font-size: 4rem;
+  font-weight: 200;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 41px #7b7b7b, -20px -20px 41px #ffffff;
+  border-radius: 3rem;
+  padding: 1rem;
+  text-align: center; }
+
 .index__rabbit {
-  max-width: 50rem;
+  max-width: 40rem;
   max-height: auto;
   position: relative;
-  transform: rotate(-20deg); }
+  z-index: 1;
+  overflow: hidden;
+  left: 10rem; }
+
+.index__beerImg {
+  border-radius: 45%; }
 
 .index__variedades {
   outline: none;
