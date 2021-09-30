@@ -234,34 +234,37 @@ a.navegador__link {
     box-shadow: 0rem 1.5rem 6rem 0.3rem #555744;
     transform: translate(0rem, -0.5rem); }
 
-.cuerpo__cuerpo {
-  margin: 1rem;
-  border-radius: 1rem;
-  padding: 1rem;
-  color: white;
-  background-image: url(../Assets/BACK22.jpg);
-  background-attachment: fixed;
-  background-size: contain;
-  background-position: center; }
+.index__dorado {
+  background-color: #9a7d0a; }
 
-.cuerpo__titulo {
-  text-align: center;
-  letter-spacing: 1rem;
-  color: #9a7d0a;
-  margin-top: 1rem; }
+.index__gris {
+  background-color: grey; }
 
-.cuerpo__parrafo {
-  line-height: 5rem; }
+.index__blanco {
+  background-color: white; }
 
-.cuerpo__divisor {
-  background-color: #9a7d0a;
-  transform: skew(-10deg);
-  margin: 1rem 0rem;
-  box-shadow: 0rem 1rem 2rem 0.2rem #555744;
-  text-align: center;
-  text-transform: capitalize;
-  font-family: 'UnifrakturMaguntia', cursive;
-  font-size: 4rem; }
+.index__variedades {
+  outline: none;
+  border: none;
+  width: 15rem;
+  height: 15rem;
+  margin: 3rem;
+  font-size: 4rem;
+  font-weight: 200;
+  border-radius: 50%;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  transition: all .3s; }
+  .index__variedades:hover {
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #d0d0d0, -20px -20px 60px #f0f0f0;
+    font-size: 3.8rem;
+    font-weight: 200; }
+  .index__variedades:active {
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 20px 20px 60px #c1c1c1, -20px -20px 60px #ffffff;
+    font-size: 3.5rem;
+    font-weight: 200; }
 
 /* variables */
 /*Imports*/
@@ -596,15 +599,13 @@ a.navegador__link {
   text-align: center;
   position: relative;
   z-index: 2;
-  top: 8rem;
+  top: 20rem;
   color: white;
   background-color: .productos__nombre drCol;
   border-radius: 1rem; }
 
 .productoscontenedor {
-  position: relative;
-  top: 40rem;
-  left: 20rem; }
+  position: relative; }
 
 /* variables */
 /*Imports*/

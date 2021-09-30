@@ -2,37 +2,39 @@
 
 // scss
 
-.cuerpo{
-	&__cuerpo{
-		margin: 1rem;
-		border-radius: 1rem;
-		padding: 1rem;
-		color: white;
-		@include parallax;
+$bgCol:(
+	"dorado": $drCol,
+	"gris": grey,
+	"blanco": white
+	);
+
+@each $bg, $col in $bgCol {
+	.index__#{$bg}{
+		background-color: $col;
 	}
-	&__titulo{
-		text-align: center;
-		letter-spacing: 1rem;
-		color: $drCol;
-		margin:{
-			top:1rem;
+}
+
+.index{
+	&__variedades{
+		outline: none;
+		border: none;
+		width: 15rem;
+		height: 15rem;
+		margin: 3rem;
+		@include fuenteGen(4rem, 200);
+		border-radius: 50%;
+		background: #e0e0e0;
+		box-shadow:  20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+		transition:all .3s;
+		&:hover{
+			background: #e0e0e0;
+			box-shadow:  20px 20px 60px #d0d0d0, -20px -20px 60px #f0f0f0;
+			@include fuenteGen(3.8rem, 200);
+		}
+		&:active{
+			background: linear-gradient(145deg, #cacaca, #f0f0f0);
+			box-shadow:  20px 20px 60px #c1c1c1, -20px -20px 60px #ffffff;
+			@include fuenteGen(3.5rem, 200);
 		}
 	}
-	&__parrafo{
-		line-height: 5rem;
-	}
-	&__divisor{
-		background-color: $drCol;
-		transform: skew(-10deg);
-		margin: 1rem 0rem;
-		box-shadow: 0rem 1rem 2rem .2rem $shCol;
-		text:{
-			align: center;
-			transform: capitalize; 
-		}
-		font:{
-			family: 'UnifrakturMaguntia', cursive;
-			size: 4rem;
-		}
-	}
-} 
+}
