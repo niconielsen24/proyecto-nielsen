@@ -611,13 +611,14 @@ a.navegador__link {
   background-color: black;
   transition: all .5s;
   z-index: 3;
-  bottom: 53rem;
-  left: 6.6rem;
-  position: relative; }
+  top: 5.5rem;
+  left: 8.2rem;
+  position: absolute; }
   .productos__imgProductos:hover {
     opacity: 0; }
 
 .productos__fuente {
+  text-align: center;
   font-size: 8rem;
   font-family: 'UnifrakturMaguntia', cursive; }
 
@@ -642,9 +643,6 @@ a.navegador__link {
   color: white;
   background-color: .productos__nombre drCol;
   border-radius: 1rem; }
-
-.productoscontenedor {
-  position: relative; }
 
 /* variables */
 /*Imports*/

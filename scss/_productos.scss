@@ -4,21 +4,21 @@
 
 .productos{
 	&__imgProductos{
-		// margin: 3rem 1rem;
 		width: 50rem;
 		height: 50rem;
 		border-radius: 50%;
 		background-color: black;
 		transition: all .5s;
 		z-index: 3;
-		bottom: 53rem;
-		left: 6.6rem;
-		position: relative;
+		top: 5.5rem;
+		left: 8.2rem;
+		position: absolute;
 		&:hover{
 			opacity: 0;
 		}
 	}
 	&__fuente{
+		text-align: center;
 		font:{
 			size:8rem;
 			family: 'UnifrakturMaguntia', cursive;
@@ -45,10 +45,5 @@
 		color: white;
 		background-color: &drCol;
 		border-radius: 1rem;
-	}
-	&contenedor{
-		position: relative;
-		// top: 40rem;
-		// left: 20rem;
 	}
 }
