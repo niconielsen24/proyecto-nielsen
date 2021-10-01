@@ -141,41 +141,61 @@ a.navegador__link{
 }
 .footer{
 	&__footer{
-		background-color: $drCol;
-		height: 15rem; 
+		background-color: $bgCol;
+		position: relative;
+		z-index: 4;
+	}
+	&__titulo{
+		text-align: center;
+		color: white;
+		padding: 1rem;
+		&--a{
+			border: solid .4rem $drCol;
+			font:{
+				size:4rem;
+				family: 'UnifrakturMaguntia', cursive;
+			}
+		}
+	}
+	&__titRedes{
+		text-align: center;
+	}
+	&__contacto{
+		color: black;
+		@include fuenteGen(2rem, 200);
+		padding-top: 2rem
 	}
 	&__logoIns{
 		text-align: center;
 		margin: 2rem;
 	}
 	&__logoInsImg{
-		border-radius: 2rem;
+		border-radius: 1rem;
 		padding: 1rem;
 		background-color: $drCol;
 		transition: all .5s;
 	}
 	&__autor{
-		position: relative;
-		right: 45rem;
 		&--p{
 			color: black;
-		font-size: 3rem;
+		font-size: 2rem;
 		}
 	}
 	&__nielsenNicolas{
-		@include fuenteGen(3rem,200);
-		color: black;
+		@include fuenteGen(2rem,200);
+		color: white;
 		&:link{
-		@include linkNav;
+		color: white;
 		}
-	&:visited{
-		@include linkNav;
+		&:visited{
+		color: white;
 		}
-	&:hover{
-		@include linkNav;
+		&:hover{
+		color: white;
+		text-decoration: none;
 		}
-	&:active{
-		@include linkNav;
+		&:active{
+		color: white;
 		}
 	}
 }

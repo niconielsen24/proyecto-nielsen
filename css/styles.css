@@ -11,8 +11,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap");
 * {
   font-size: 62.5%;
   list-style: none;
@@ -82,42 +80,55 @@ a.navegador__link {
   letter-spacing: 2rem; }
 
 .footer__footer {
-  background-color: #9a7d0a;
-  height: 15rem; }
+  background-color: #272727;
+  position: relative;
+  z-index: 4; }
+
+.footer__titulo {
+  text-align: center;
+  color: white;
+  padding: 1rem; }
+  .footer__titulo--a {
+    border: solid 0.4rem #9a7d0a;
+    font-size: 4rem;
+    font-family: 'UnifrakturMaguntia', cursive; }
+
+.footer__titRedes {
+  text-align: center; }
+
+.footer__contacto {
+  color: black;
+  font-size: 2rem;
+  font-weight: 200;
+  padding-top: 2rem; }
 
 .footer__logoIns {
   text-align: center;
   margin: 2rem; }
 
 .footer__logoInsImg {
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 1rem;
   background-color: #9a7d0a;
   transition: all .5s; }
 
-.footer__autor {
-  position: relative;
-  right: 45rem; }
-  .footer__autor--p {
-    color: black;
-    font-size: 3rem; }
+.footer__autor--p {
+  color: black;
+  font-size: 2rem; }
 
 .footer__nielsenNicolas {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 200;
-  color: black; }
+  color: white; }
   .footer__nielsenNicolas:link {
-    text-decoration: none;
-    color: black; }
+    color: white; }
   .footer__nielsenNicolas:visited {
-    text-decoration: none;
-    color: black; }
+    color: white; }
   .footer__nielsenNicolas:hover {
-    text-decoration: none;
-    color: black; }
+    color: white;
+    text-decoration: none; }
   .footer__nielsenNicolas:active {
-    text-decoration: none;
-    color: black; }
+    color: white; }
 
 /* variables */
 /*Imports*/
@@ -191,42 +202,55 @@ a.navegador__link {
   letter-spacing: 2rem; }
 
 .footer__footer {
-  background-color: #9a7d0a;
-  height: 15rem; }
+  background-color: #272727;
+  position: relative;
+  z-index: 4; }
+
+.footer__titulo {
+  text-align: center;
+  color: white;
+  padding: 1rem; }
+  .footer__titulo--a {
+    border: solid 0.4rem #9a7d0a;
+    font-size: 4rem;
+    font-family: 'UnifrakturMaguntia', cursive; }
+
+.footer__titRedes {
+  text-align: center; }
+
+.footer__contacto {
+  color: black;
+  font-size: 2rem;
+  font-weight: 200;
+  padding-top: 2rem; }
 
 .footer__logoIns {
   text-align: center;
   margin: 2rem; }
 
 .footer__logoInsImg {
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 1rem;
   background-color: #9a7d0a;
   transition: all .5s; }
 
-.footer__autor {
-  position: relative;
-  right: 45rem; }
-  .footer__autor--p {
-    color: black;
-    font-size: 3rem; }
+.footer__autor--p {
+  color: black;
+  font-size: 2rem; }
 
 .footer__nielsenNicolas {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 200;
-  color: black; }
+  color: white; }
   .footer__nielsenNicolas:link {
-    text-decoration: none;
-    color: black; }
+    color: white; }
   .footer__nielsenNicolas:visited {
-    text-decoration: none;
-    color: black; }
+    color: white; }
   .footer__nielsenNicolas:hover {
-    text-decoration: none;
-    color: black; }
+    color: white;
+    text-decoration: none; }
   .footer__nielsenNicolas:active {
-    text-decoration: none;
-    color: black; }
+    color: white; }
 
 .index__subTitulo--top {
   font-size: 4rem;
@@ -389,42 +413,55 @@ a.navegador__link {
   letter-spacing: 2rem; }
 
 .footer__footer {
-  background-color: #9a7d0a;
-  height: 15rem; }
+  background-color: #272727;
+  position: relative;
+  z-index: 4; }
+
+.footer__titulo {
+  text-align: center;
+  color: white;
+  padding: 1rem; }
+  .footer__titulo--a {
+    border: solid 0.4rem #9a7d0a;
+    font-size: 4rem;
+    font-family: 'UnifrakturMaguntia', cursive; }
+
+.footer__titRedes {
+  text-align: center; }
+
+.footer__contacto {
+  color: black;
+  font-size: 2rem;
+  font-weight: 200;
+  padding-top: 2rem; }
 
 .footer__logoIns {
   text-align: center;
   margin: 2rem; }
 
 .footer__logoInsImg {
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 1rem;
   background-color: #9a7d0a;
   transition: all .5s; }
 
-.footer__autor {
-  position: relative;
-  right: 45rem; }
-  .footer__autor--p {
-    color: black;
-    font-size: 3rem; }
+.footer__autor--p {
+  color: black;
+  font-size: 2rem; }
 
 .footer__nielsenNicolas {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 200;
-  color: black; }
+  color: white; }
   .footer__nielsenNicolas:link {
-    text-decoration: none;
-    color: black; }
+    color: white; }
   .footer__nielsenNicolas:visited {
-    text-decoration: none;
-    color: black; }
+    color: white; }
   .footer__nielsenNicolas:hover {
-    text-decoration: none;
-    color: black; }
+    color: white;
+    text-decoration: none; }
   .footer__nielsenNicolas:active {
-    text-decoration: none;
-    color: black; }
+    color: white; }
 
 .nosotros__nosotros {
   border-radius: 1rem;
@@ -493,6 +530,7 @@ a.navegador__link {
 .nosotros__users--contenedor {
   background-color: #272727;
   margin-left: .5rem;
+  margin-bottom: 3rem;
   height: 30rem; }
 
 /* variables */
@@ -567,42 +605,55 @@ a.navegador__link {
   letter-spacing: 2rem; }
 
 .footer__footer {
-  background-color: #9a7d0a;
-  height: 15rem; }
+  background-color: #272727;
+  position: relative;
+  z-index: 4; }
+
+.footer__titulo {
+  text-align: center;
+  color: white;
+  padding: 1rem; }
+  .footer__titulo--a {
+    border: solid 0.4rem #9a7d0a;
+    font-size: 4rem;
+    font-family: 'UnifrakturMaguntia', cursive; }
+
+.footer__titRedes {
+  text-align: center; }
+
+.footer__contacto {
+  color: black;
+  font-size: 2rem;
+  font-weight: 200;
+  padding-top: 2rem; }
 
 .footer__logoIns {
   text-align: center;
   margin: 2rem; }
 
 .footer__logoInsImg {
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 1rem;
   background-color: #9a7d0a;
   transition: all .5s; }
 
-.footer__autor {
-  position: relative;
-  right: 45rem; }
-  .footer__autor--p {
-    color: black;
-    font-size: 3rem; }
+.footer__autor--p {
+  color: black;
+  font-size: 2rem; }
 
 .footer__nielsenNicolas {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 200;
-  color: black; }
+  color: white; }
   .footer__nielsenNicolas:link {
-    text-decoration: none;
-    color: black; }
+    color: white; }
   .footer__nielsenNicolas:visited {
-    text-decoration: none;
-    color: black; }
+    color: white; }
   .footer__nielsenNicolas:hover {
-    text-decoration: none;
-    color: black; }
+    color: white;
+    text-decoration: none; }
   .footer__nielsenNicolas:active {
-    text-decoration: none;
-    color: black; }
+    color: white; }
 
 .productos__imgProductos {
   width: 50rem;
@@ -640,9 +691,8 @@ a.navegador__link {
   position: relative;
   z-index: 2;
   top: 20rem;
-  color: white;
-  background-color: .productos__nombre drCol;
-  border-radius: 1rem; }
+  color: black;
+  border-radius: 2rem; }
 
 /* variables */
 /*Imports*/
@@ -716,173 +766,55 @@ a.navegador__link {
   letter-spacing: 2rem; }
 
 .footer__footer {
-  background-color: #9a7d0a;
-  height: 15rem; }
+  background-color: #272727;
+  position: relative;
+  z-index: 4; }
+
+.footer__titulo {
+  text-align: center;
+  color: white;
+  padding: 1rem; }
+  .footer__titulo--a {
+    border: solid 0.4rem #9a7d0a;
+    font-size: 4rem;
+    font-family: 'UnifrakturMaguntia', cursive; }
+
+.footer__titRedes {
+  text-align: center; }
+
+.footer__contacto {
+  color: black;
+  font-size: 2rem;
+  font-weight: 200;
+  padding-top: 2rem; }
 
 .footer__logoIns {
   text-align: center;
   margin: 2rem; }
 
 .footer__logoInsImg {
-  border-radius: 2rem;
-  padding: 1rem;
-  background-color: #9a7d0a;
-  transition: all .5s; }
-
-.footer__autor {
-  position: relative;
-  right: 45rem; }
-  .footer__autor--p {
-    color: black;
-    font-size: 3rem; }
-
-.footer__nielsenNicolas {
-  font-size: 3rem;
-  font-weight: 200;
-  color: black; }
-  .footer__nielsenNicolas:link {
-    text-decoration: none;
-    color: black; }
-  .footer__nielsenNicolas:visited {
-    text-decoration: none;
-    color: black; }
-  .footer__nielsenNicolas:hover {
-    text-decoration: none;
-    color: black; }
-  .footer__nielsenNicolas:active {
-    text-decoration: none;
-    color: black; }
-
-.formulario__cuerpo {
-  background-color: black;
-  padding: 2rem;
-  color: white;
-  margin: 2rem;
-  text-align: center;
   border-radius: 1rem;
-  font-size: 4rem;
-  font-weight: 400; }
-
-.formulario__grupo {
-  font-size: 4rem;
-  font-weight: 400; }
-
-.formulario__option {
-  font-size: 2rem;
-  font-weight: 200; }
-
-.formulario__entrada {
-  font-size: 2rem;
-  font-weight: 200; }
-
-/* variables */
-/*Imports*/
-/*SCSS*/
-* {
-  font-size: 62.5%;
-  list-style: none;
-  text-decoration: none;
-  font-family: 'Nunito', sans-serif; }
-
-h1 {
-  font-size: 8rem;
-  font-family: 'UnifrakturMaguntia', cursive;
-  text-transform: capitalize; }
-
-h2 {
-  font-size: 4rem;
-  font-weight: 400;
-  text-transform: capitalize; }
-
-h4 {
-  font-size: 2rem;
-  font-weight: 400; }
-
-p {
-  font-size: 2rem;
-  font-weight: 200; }
-
-.navegador__navegador {
-  background-color: white;
-  border-bottom: solid #9a7d0a 0.4rem; }
-
-.navegador__item {
-  transition: all .3s;
-  font-size: 4rem;
-  font-weight: 200;
-  font-family: 'Nunito', sans-serif; }
-  .navegador__item:hover {
-    transform: scale(1.1); }
-
-a.navegador__link {
-  text-transform: capitalize; }
-  a.navegador__link:link {
-    text-decoration: none;
-    color: black; }
-  a.navegador__link:visited {
-    text-decoration: none;
-    color: black; }
-  a.navegador__link:hover {
-    text-decoration: none;
-    color: black;
-    font-weight: 400; }
-  a.navegador__link:active {
-    text-decoration: none;
-    color: black; }
-
-.header__logo {
-  max-width: 20rem;
-  max-height: auto;
-  margin: 2rem;
-  border: solid #9a7d0a 0.4rem; }
-
-.header__titulo {
-  text-align: center;
-  word-spacing: 2rem;
-  letter-spacing: 2rem; }
-
-.header__subTitulo {
-  text-align: center;
-  word-spacing: 4rem;
-  letter-spacing: 2rem; }
-
-.footer__footer {
-  background-color: #9a7d0a;
-  height: 15rem; }
-
-.footer__logoIns {
-  text-align: center;
-  margin: 2rem; }
-
-.footer__logoInsImg {
-  border-radius: 2rem;
   padding: 1rem;
   background-color: #9a7d0a;
   transition: all .5s; }
 
-.footer__autor {
-  position: relative;
-  right: 45rem; }
-  .footer__autor--p {
-    color: black;
-    font-size: 3rem; }
+.footer__autor--p {
+  color: black;
+  font-size: 2rem; }
 
 .footer__nielsenNicolas {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 200;
-  color: black; }
+  color: white; }
   .footer__nielsenNicolas:link {
-    text-decoration: none;
-    color: black; }
+    color: white; }
   .footer__nielsenNicolas:visited {
-    text-decoration: none;
-    color: black; }
+    color: white; }
   .footer__nielsenNicolas:hover {
-    text-decoration: none;
-    color: black; }
+    color: white;
+    text-decoration: none; }
   .footer__nielsenNicolas:active {
-    text-decoration: none;
-    color: black; }
+    color: white; }
 
 .medioAmbiente__cuerpo {
   max-width: fit-content;
