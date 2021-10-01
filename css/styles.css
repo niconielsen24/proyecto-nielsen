@@ -13,8 +13,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap");
 * {
   font-size: 62.5%;
   list-style: none;
@@ -429,20 +427,17 @@ a.navegador__link {
     color: black; }
 
 .nosotros__nosotros {
-  max-width: fit-content;
-  margin: 3rem 1rem;
   border-radius: 1rem;
   padding: 1rem; }
 
 .nosotros__argumentos, .nosotros--valores {
   padding: 1rem;
   text-align: center;
-  border-radius: 1rem;
+  border-radius: 2rem;
   margin: 4rem 1rem;
-  transition: all .5s;
-  border: solid grey .4rem; }
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff; }
   .nosotros__argumentos:hover, .nosotros--valores:hover {
-    border: solid white .4rem;
     background: #e0e0e0;
     box-shadow: 32px 32px 63px #a1a1a1, -32px -32px 63px #ffffff; }
 
@@ -453,8 +448,7 @@ a.navegador__link {
   background-position: center;
   color: white;
   padding: 2rem;
-  margin: 1rem;
-  border-radius: 1rem;
+  margin: 3rem 0rem;
   word-spacing: 1rem;
   line-height: 4rem;
   text-align: center; }
@@ -468,7 +462,6 @@ a.navegador__link {
 .nosotros--valores {
   margin: 1rem 0rem; }
   .nosotros--valores:hover {
-    border: solid white .4rem;
     background: #e0e0e0;
     box-shadow: 32px 32px 63px #a1a1a1, -32px -32px 63px #ffffff; }
 
@@ -490,20 +483,17 @@ a.navegador__link {
   border-radius: 3rem; }
 
 .nosotros__user {
-  box-shadow: inset 17px 17px 34px #969696, inset -17px -17px 34px #ffffff;
-  background-color: white;
-  margin: 1rem;
+  background: #272727;
+  box-shadow: 19px 19px 39px #212121, -19px -19px 39px #2d2d2d;
+  margin: 3rem 1rem;
   border-radius: 1rem;
-  padding: 1rem;
-  color: black; }
+  padding: 2rem;
+  color: white; }
 
 .nosotros__users--contenedor {
-  background-image: url(../Assets/BACK22.jpg);
-  background-attachment: fixed;
-  background-size: contain;
-  background-position: center;
-  border-radius: 1rem;
-  margin: 1rem; }
+  background-color: #272727;
+  margin-left: .5rem;
+  height: 30rem; }
 
 /* variables */
 /*Imports*/
@@ -923,157 +913,3 @@ a.navegador__link {
   margin: 2rem;
   opacity: .8;
   padding: 1rem; }
-
-/* variables */
-/*Imports*/
-/*SCSS*/
-* {
-  font-size: 62.5%;
-  list-style: none;
-  text-decoration: none;
-  font-family: 'Nunito', sans-serif; }
-
-h1 {
-  font-size: 8rem;
-  font-family: 'UnifrakturMaguntia', cursive;
-  text-transform: capitalize; }
-
-h2 {
-  font-size: 4rem;
-  font-weight: 400;
-  text-transform: capitalize; }
-
-h4 {
-  font-size: 2rem;
-  font-weight: 400; }
-
-p {
-  font-size: 2rem;
-  font-weight: 200; }
-
-.navegador__navegador {
-  background-color: white;
-  border-bottom: solid #9a7d0a 0.4rem; }
-
-.navegador__item {
-  transition: all .3s;
-  font-size: 4rem;
-  font-weight: 200;
-  font-family: 'Nunito', sans-serif; }
-  .navegador__item:hover {
-    transform: scale(1.1); }
-
-a.navegador__link {
-  text-transform: capitalize; }
-  a.navegador__link:link {
-    text-decoration: none;
-    color: black; }
-  a.navegador__link:visited {
-    text-decoration: none;
-    color: black; }
-  a.navegador__link:hover {
-    text-decoration: none;
-    color: black;
-    font-weight: 400; }
-  a.navegador__link:active {
-    text-decoration: none;
-    color: black; }
-
-.header__logo {
-  max-width: 20rem;
-  max-height: auto;
-  margin: 2rem;
-  border: solid #9a7d0a 0.4rem; }
-
-.header__titulo {
-  text-align: center;
-  word-spacing: 2rem;
-  letter-spacing: 2rem; }
-
-.header__subTitulo {
-  text-align: center;
-  word-spacing: 4rem;
-  letter-spacing: 2rem; }
-
-.footer__footer {
-  background-color: #9a7d0a;
-  height: 15rem; }
-
-.footer__logoIns {
-  text-align: center;
-  margin: 2rem; }
-
-.footer__logoInsImg {
-  border-radius: 2rem;
-  padding: 1rem;
-  background-color: #9a7d0a;
-  transition: all .5s; }
-
-.footer__autor {
-  position: relative;
-  right: 45rem; }
-  .footer__autor--p {
-    color: black;
-    font-size: 3rem; }
-
-.footer__nielsenNicolas {
-  font-size: 3rem;
-  font-weight: 200;
-  color: black; }
-  .footer__nielsenNicolas:link {
-    text-decoration: none;
-    color: black; }
-  .footer__nielsenNicolas:visited {
-    text-decoration: none;
-    color: black; }
-  .footer__nielsenNicolas:hover {
-    text-decoration: none;
-    color: black; }
-  .footer__nielsenNicolas:active {
-    text-decoration: none;
-    color: black; }
-
-.error__error {
-  font-size: 8rem;
-  font-weight: 400;
-  text-align: center;
-  margin-top: 20rem;
-  border-radius: 6rem;
-  background: linear-gradient(145deg, #cacaca, #f0f0f0);
-  box-shadow: 2rem 2rem 3rem #7d7d7d, -16px -16px 32px #ffffff; }
-
-.error__aclaracion {
-  font-size: 2rem;
-  font-weight: 400;
-  text-align: center;
-  padding: 2rem;
-  margin: 3rem;
-  border-radius: 63px;
-  background: linear-gradient(145deg, #cacaca, #f0f0f0);
-  box-shadow: 16px 16px 32px #7d7d7d, -16px -16px 32px #ffffff; }
-
-.error__boton {
-  font-size: 2rem;
-  font-weight: 400;
-  text-align: center;
-  border-radius: 30% 70% 30% 70% / 65% 62% 38% 35%;
-  background-color: #9a7d0a;
-  color: black;
-  text-transform: capitalize;
-  transition: all .5s;
-  padding: 2rem;
-  margin: 2rem; }
-  .error__boton:link {
-    text-decoration: none;
-    color: black; }
-  .error__boton:visited {
-    text-decoration: none;
-    color: black; }
-  .error__boton:hover {
-    text-decoration: none;
-    color: black;
-    transform: scale(1.2);
-    border-radius: 19% 81% 52% 48% / 76% 19% 81% 24%; }
-  .error__boton:active {
-    text-decoration: none;
-    color: black; }

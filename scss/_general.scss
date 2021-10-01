@@ -35,14 +35,14 @@ $imgParallax: url(../Assets/BACK22.jpg);
 	}
 }
 @mixin nosotros{
-	background-color: white;
-	margin: 1rem;
+	margin: 3rem 1rem;
 	border-radius: 1rem;
-	padding: 1rem;
-	color: black;
+	padding: 2rem;
+	color: white;
 }
 @mixin usersNosotros{
-	box-shadow: inset 17px 17px 34px #969696, inset -17px -17px 34px #ffffff;
+	background: #272727;
+	box-shadow:  19px 19px 39px #212121, -19px -19px 39px #2d2d2d;
 	@include nosotros;
 }
 @mixin misionNosotros{
