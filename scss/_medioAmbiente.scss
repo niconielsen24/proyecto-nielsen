@@ -3,29 +3,24 @@
 // scss
 
 .medioAmbiente{
-	&__cuerpo{
-		max-width: fit-content;
-		margin: 1rem;
-		border-radius: 1rem;
-		padding: 1rem;
-		color: white;
-		text-align: center;
-		line-height: 5rem;
-		@include parallax;
+	&__sep{
+		background: #272727;
+		padding: 2rem;
 	}
 	&__titulo{
-		text-transform: capitalize;
-		margin: 1rem;
-		background-color: $drCol;
-		padding: 1rem 0rem;
-		transform: skew(-10deg);
+		color: white;
+		text-align: center;
+		padding: 1rem;
+		border-radius: 2rem;
+		background: #272727;
+		box-shadow:  9px 9px 18px #1c1c1c, -9px -9px 18px #323232;
 	}
 	&__parrafo{
-		background-color: white;
-		border-radius: 1rem;
-		color: black;
-		margin: 2rem;
-		opacity: .8;
-		padding: 1rem;
+		margin: 3rem;
+		padding: 2rem;
+		border-radius: 2rem;
+		background: #c0c0c0;
+		box-shadow: inset 9px 9px 18px #4d4d4d,
+            inset -9px -9px 18px #ffffff;
 	}
 }

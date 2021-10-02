@@ -479,10 +479,7 @@ a.navegador__link {
     box-shadow: 32px 32px 63px #a1a1a1, -32px -32px 63px #ffffff; }
 
 .nosotros__descripcion {
-  background-image: url(../Assets/BACK22.jpg);
-  background-attachment: fixed;
-  background-size: contain;
-  background-position: center;
+  background: #272727;
   color: white;
   padding: 2rem;
   margin: 3rem 0rem;
@@ -816,30 +813,21 @@ a.navegador__link {
   .footer__nielsenNicolas:active {
     color: white; }
 
-.medioAmbiente__cuerpo {
-  max-width: fit-content;
-  margin: 1rem;
-  border-radius: 1rem;
-  padding: 1rem;
-  color: white;
-  text-align: center;
-  line-height: 5rem;
-  background-image: url(../Assets/BACK22.jpg);
-  background-attachment: fixed;
-  background-size: contain;
-  background-position: center; }
+.medioAmbiente__sep {
+  background: #272727;
+  padding: 2rem; }
 
 .medioAmbiente__titulo {
-  text-transform: capitalize;
-  margin: 1rem;
-  background-color: #9a7d0a;
-  padding: 1rem 0rem;
-  transform: skew(-10deg); }
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 2rem;
+  background: #272727;
+  box-shadow: 9px 9px 18px #1c1c1c, -9px -9px 18px #323232; }
 
 .medioAmbiente__parrafo {
-  background-color: white;
-  border-radius: 1rem;
-  color: black;
-  margin: 2rem;
-  opacity: .8;
-  padding: 1rem; }
+  margin: 3rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  background: #c0c0c0;
+  box-shadow: inset 9px 9px 18px #4d4d4d, inset -9px -9px 18px #ffffff; }

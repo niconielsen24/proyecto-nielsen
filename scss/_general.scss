@@ -2,7 +2,6 @@
 $drCol: rgb(154, 125, 10);
 $shCol: rgb(85, 87, 68);
 $bgCol: #272727;
-$imgParallax: url(../Assets/BACK22.jpg);
 
 /*Imports*/ 
 
@@ -25,14 +24,6 @@ $imgParallax: url(../Assets/BACK22.jpg);
 @mixin linkNav{
 	text-decoration: none;
 	color: black;
-}
-@mixin parallax{
-	background:{
-		image: $imgParallax;
-		attachment: fixed;
-		size: contain;
-		position: center;
-	}
 }
 @mixin nosotros{
 	margin: 3rem 1rem;
