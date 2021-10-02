@@ -48,6 +48,9 @@ $desp:(
 			position: relative;
 			top: 7rem;
 		}
+		&__img{
+			padding: 0rem 10rem;
+		}
 	}
 	&__parrafo1{
 		@include fuenteGen(4rem, 200);
@@ -69,5 +72,90 @@ $desp:(
 		z-index: 1;
 		overflow: hidden;
 		left: 10rem;
+	}
+}
+
+@media only screen and (max-width:480px ) {
+	.index{
+		&__rabbit{
+			display: none;
+		}
+		&__seccion{
+			height: auto;
+		}
+		&__parrafo{
+			@include fuenteGen(2rem, 200);
+			background-color: white;
+			border: solid .4rem $bgCol;
+			border-radius: 0rem;
+			padding: 1rem;
+			box-shadow:  31px 31px 62px white, -31px -31px 62px white;
+			&:hover{
+				border: solid .4rem $bgCol;
+				border-radius: 0rem;
+				box-shadow:  31px 31px 62px white, -31px -31px 62px white;
+			}
+		}
+		&__img{
+			position: relative;
+			left: -2.5rem;
+		}
+		&__parrafo--mid{
+			height: auto;
+			position: relative;
+			left: -1.5rem;
+			top: 0rem;
+			text-align: center;
+			padding-right: 4rem;
+			padding-left: 4rem;
+		}
+		&__parrafo1{
+			position: relative;
+			left: 0rem;
+			bottom: 0rem;
+			top: 10rem;
+			width: 35rem;
+			height: auto;
+			padding: 2rem;
+			background-color: white;
+			color: black;
+			border: solid .4rem $bgCol;
+			border-radius: 0rem;
+			@include fuenteGen(2rem,200);
+		}
+		&__titulo{
+			font-size: 4rem;
+			margin: 2rem 0rem;
+			border-radius: 0rem;
+		}
+		&__subTitulo{
+			&--top{
+				position: relative;
+				left: 0rem;
+				@include fuenteGen(2rem, 200);
+				word-spacing: 1rem;
+				background: white;
+				color: black;
+				border: solid .4rem $bgCol;
+				margin: 2rem;
+				padding: 1rem;
+			}
+			&--mid{
+				position: relative;
+				left: -1rem;
+				bottom: 20rem;
+				@include fuenteGen(2rem, 200);
+				word-spacing: 1rem;
+				padding: 3rem 6rem;
+			}
+			&--bot{
+				position: relative;
+				left: 0rem;
+				bottom: 4.5rem;
+				@include fuenteGen(2rem, 200);
+				word-spacing: 1rem;
+				padding: 3rem 4rem;
+			}
+		}
 	}
 }

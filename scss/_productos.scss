@@ -60,3 +60,20 @@
 		border-radius: 2rem;
 	}
 }
+@media only screen and (max-width: 480px){
+	.productos{
+		&__producto{
+			display: none;
+		}
+		&__nombre{
+			display: none;
+		}
+		&__imgProductos{
+			position: static;
+			width: 100%;
+			border-radius: 0rem;
+			margin: 1rem 0rem;
+			border: solid .4rem $bgCol;
+		}
+	}
+}

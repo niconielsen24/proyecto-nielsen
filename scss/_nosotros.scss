@@ -79,3 +79,19 @@
 	margin-bottom: 3rem;
 	height: 30rem;
 }
+
+@media only screen and (max-width: 480px){
+	.lista{
+		&__lista{
+			flex-direction: column;
+		}
+		&__items{
+			text-align: center;
+			position: relative;
+			left: -2.5rem;
+		}
+	}
+	.nosotros__users--contenedor{
+		display: none;
+	}
+}

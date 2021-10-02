@@ -65,6 +65,9 @@ a.navegador__link {
     text-decoration: none;
     color: black; }
 
+.nav__icon {
+  max-width: 3rem; }
+
 .header__logo {
   max-width: 20rem;
   max-height: auto;
@@ -131,6 +134,34 @@ a.navegador__link {
     text-decoration: none; }
   .footer__nielsenNicolas:active {
     color: white; }
+
+@media only screen and (max-width: 480px) {
+  .footer__autor {
+    position: relative;
+    bottom: 5rem;
+    text-align: center; }
+  .footer__titRedes {
+    position: relative;
+    top: 8rem; }
+  .footer__titulo {
+    position: relative;
+    bottom: 6rem; }
+  .footer__contacto {
+    position: relative;
+    top: 8rem;
+    text-align: center; }
+  .footer__logoIns {
+    position: relative;
+    left: -1.5rem; }
+  .header__logo {
+    display: none; }
+  .header__subTitulo {
+    display: none; }
+  .header__titulo {
+    font-size: 4rem;
+    margin: 1rem;
+    padding: 0rem;
+    text-align: center; } }
 
 /* variables */
 /*Imports*/
@@ -187,6 +218,9 @@ a.navegador__link {
     text-decoration: none;
     color: black; }
 
+.nav__icon {
+  max-width: 3rem; }
+
 .header__logo {
   max-width: 20rem;
   max-height: auto;
@@ -253,6 +287,34 @@ a.navegador__link {
     text-decoration: none; }
   .footer__nielsenNicolas:active {
     color: white; }
+
+@media only screen and (max-width: 480px) {
+  .footer__autor {
+    position: relative;
+    bottom: 5rem;
+    text-align: center; }
+  .footer__titRedes {
+    position: relative;
+    top: 8rem; }
+  .footer__titulo {
+    position: relative;
+    bottom: 6rem; }
+  .footer__contacto {
+    position: relative;
+    top: 8rem;
+    text-align: center; }
+  .footer__logoIns {
+    position: relative;
+    left: -1.5rem; }
+  .header__logo {
+    display: none; }
+  .header__subTitulo {
+    display: none; }
+  .header__titulo {
+    font-size: 4rem;
+    margin: 1rem;
+    padding: 0rem;
+    text-align: center; } }
 
 .index__subTitulo--top {
   font-size: 4rem;
@@ -320,6 +382,8 @@ a.navegador__link {
     text-align: right;
     position: relative;
     top: 7rem; }
+  .index__parrafo__img {
+    padding: 0rem 10rem; }
 
 .index__parrafo1 {
   font-size: 4rem;
@@ -342,6 +406,80 @@ a.navegador__link {
   z-index: 1;
   overflow: hidden;
   left: 10rem; }
+
+@media only screen and (max-width: 480px) {
+  .index__rabbit {
+    display: none; }
+  .index__seccion, .index__seccion--mid {
+    height: auto; }
+  .index__parrafo, .index__parrafo--mid {
+    font-size: 2rem;
+    font-weight: 200;
+    background-color: white;
+    border: solid 0.4rem #272727;
+    border-radius: 0rem;
+    padding: 1rem;
+    box-shadow: 31px 31px 62px white, -31px -31px 62px white; }
+    .index__parrafo:hover, .index__parrafo--mid:hover {
+      border: solid 0.4rem #272727;
+      border-radius: 0rem;
+      box-shadow: 31px 31px 62px white, -31px -31px 62px white; }
+  .index__img {
+    position: relative;
+    left: -2.5rem; }
+  .index__parrafo--mid {
+    height: auto;
+    position: relative;
+    left: -1.5rem;
+    top: 0rem;
+    text-align: center;
+    padding-right: 4rem;
+    padding-left: 4rem; }
+  .index__parrafo1 {
+    position: relative;
+    left: 0rem;
+    bottom: 0rem;
+    top: 10rem;
+    width: 35rem;
+    height: auto;
+    padding: 2rem;
+    background-color: white;
+    color: black;
+    border: solid 0.4rem #272727;
+    border-radius: 0rem;
+    font-size: 2rem;
+    font-weight: 200; }
+  .index__titulo {
+    font-size: 4rem;
+    margin: 2rem 0rem;
+    border-radius: 0rem; }
+  .index__subTitulo--top {
+    position: relative;
+    left: 0rem;
+    font-size: 2rem;
+    font-weight: 200;
+    word-spacing: 1rem;
+    background: white;
+    color: black;
+    border: solid 0.4rem #272727;
+    margin: 2rem;
+    padding: 1rem; }
+  .index__subTitulo--mid {
+    position: relative;
+    left: -1rem;
+    bottom: 20rem;
+    font-size: 2rem;
+    font-weight: 200;
+    word-spacing: 1rem;
+    padding: 3rem 6rem; }
+  .index__subTitulo--bot {
+    position: relative;
+    left: 0rem;
+    bottom: 4.5rem;
+    font-size: 2rem;
+    font-weight: 200;
+    word-spacing: 1rem;
+    padding: 3rem 4rem; } }
 
 /* variables */
 /*Imports*/
@@ -397,6 +535,9 @@ a.navegador__link {
   a.navegador__link:active {
     text-decoration: none;
     color: black; }
+
+.nav__icon {
+  max-width: 3rem; }
 
 .header__logo {
   max-width: 20rem;
@@ -464,6 +605,34 @@ a.navegador__link {
     text-decoration: none; }
   .footer__nielsenNicolas:active {
     color: white; }
+
+@media only screen and (max-width: 480px) {
+  .footer__autor {
+    position: relative;
+    bottom: 5rem;
+    text-align: center; }
+  .footer__titRedes {
+    position: relative;
+    top: 8rem; }
+  .footer__titulo {
+    position: relative;
+    bottom: 6rem; }
+  .footer__contacto {
+    position: relative;
+    top: 8rem;
+    text-align: center; }
+  .footer__logoIns {
+    position: relative;
+    left: -1.5rem; }
+  .header__logo {
+    display: none; }
+  .header__subTitulo {
+    display: none; }
+  .header__titulo {
+    font-size: 4rem;
+    margin: 1rem;
+    padding: 0rem;
+    text-align: center; } }
 
 .nosotros__nosotros {
   border-radius: 1rem;
@@ -532,6 +701,16 @@ a.navegador__link {
   margin-bottom: 3rem;
   height: 30rem; }
 
+@media only screen and (max-width: 480px) {
+  .lista__lista {
+    flex-direction: column; }
+  .lista__items {
+    text-align: center;
+    position: relative;
+    left: -2.5rem; }
+  .nosotros__users--contenedor {
+    display: none; } }
+
 /* variables */
 /*Imports*/
 /*SCSS*/
@@ -586,6 +765,9 @@ a.navegador__link {
   a.navegador__link:active {
     text-decoration: none;
     color: black; }
+
+.nav__icon {
+  max-width: 3rem; }
 
 .header__logo {
   max-width: 20rem;
@@ -653,6 +835,34 @@ a.navegador__link {
     text-decoration: none; }
   .footer__nielsenNicolas:active {
     color: white; }
+
+@media only screen and (max-width: 480px) {
+  .footer__autor {
+    position: relative;
+    bottom: 5rem;
+    text-align: center; }
+  .footer__titRedes {
+    position: relative;
+    top: 8rem; }
+  .footer__titulo {
+    position: relative;
+    bottom: 6rem; }
+  .footer__contacto {
+    position: relative;
+    top: 8rem;
+    text-align: center; }
+  .footer__logoIns {
+    position: relative;
+    left: -1.5rem; }
+  .header__logo {
+    display: none; }
+  .header__subTitulo {
+    display: none; }
+  .header__titulo {
+    font-size: 4rem;
+    margin: 1rem;
+    padding: 0rem;
+    text-align: center; } }
 
 .productos__imgProductos {
   width: 50rem;
@@ -703,6 +913,18 @@ a.navegador__link {
   color: black;
   border-radius: 2rem; }
 
+@media only screen and (max-width: 480px) {
+  .productos__producto {
+    display: none; }
+  .productos__nombre {
+    display: none; }
+  .productos__imgProductos {
+    position: static;
+    width: 100%;
+    border-radius: 0rem;
+    margin: 1rem 0rem;
+    border: solid 0.4rem #272727; } }
+
 /* variables */
 /*Imports*/
 /*SCSS*/
@@ -757,6 +979,9 @@ a.navegador__link {
   a.navegador__link:active {
     text-decoration: none;
     color: black; }
+
+.nav__icon {
+  max-width: 3rem; }
 
 .header__logo {
   max-width: 20rem;
@@ -825,9 +1050,37 @@ a.navegador__link {
   .footer__nielsenNicolas:active {
     color: white; }
 
+@media only screen and (max-width: 480px) {
+  .footer__autor {
+    position: relative;
+    bottom: 5rem;
+    text-align: center; }
+  .footer__titRedes {
+    position: relative;
+    top: 8rem; }
+  .footer__titulo {
+    position: relative;
+    bottom: 6rem; }
+  .footer__contacto {
+    position: relative;
+    top: 8rem;
+    text-align: center; }
+  .footer__logoIns {
+    position: relative;
+    left: -1.5rem; }
+  .header__logo {
+    display: none; }
+  .header__subTitulo {
+    display: none; }
+  .header__titulo {
+    font-size: 4rem;
+    margin: 1rem;
+    padding: 0rem;
+    text-align: center; } }
+
 .medioAmbiente__sep {
   background: #272727;
-  padding: 2rem; }
+  padding: 1rem; }
 
 .medioAmbiente__titulo {
   color: white;
@@ -899,6 +1152,9 @@ a.navegador__link {
     text-decoration: none;
     color: black; }
 
+.nav__icon {
+  max-width: 3rem; }
+
 .header__logo {
   max-width: 20rem;
   max-height: auto;
@@ -966,6 +1222,34 @@ a.navegador__link {
   .footer__nielsenNicolas:active {
     color: white; }
 
+@media only screen and (max-width: 480px) {
+  .footer__autor {
+    position: relative;
+    bottom: 5rem;
+    text-align: center; }
+  .footer__titRedes {
+    position: relative;
+    top: 8rem; }
+  .footer__titulo {
+    position: relative;
+    bottom: 6rem; }
+  .footer__contacto {
+    position: relative;
+    top: 8rem;
+    text-align: center; }
+  .footer__logoIns {
+    position: relative;
+    left: -1.5rem; }
+  .header__logo {
+    display: none; }
+  .header__subTitulo {
+    display: none; }
+  .header__titulo {
+    font-size: 4rem;
+    margin: 1rem;
+    padding: 0rem;
+    text-align: center; } }
+
 .cerveza__contenedor {
   background-color: #272727;
   height: 55rem; }
@@ -983,3 +1267,21 @@ a.navegador__link {
   padding: 2rem;
   margin: 1rem;
   border: solid 0.4rem #272727; }
+
+@media only screen and (max-width: 480px) {
+  .cerveza__contenedor {
+    width: 100%;
+    height: auto;
+    background-color: white; }
+  .cerveza__titulo {
+    background-color: white;
+    color: #272727;
+    position: relative;
+    left: 1rem; }
+  .cerveza__parrafo {
+    position: relative;
+    left: 1rem;
+    text-align: center; }
+  .cerveza__datos {
+    position: relative;
+    left: .5rem; } }

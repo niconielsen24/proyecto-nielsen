@@ -116,6 +116,9 @@ a.navegador__link{
 		@include linkNav;
 		}
 }
+.nav__icon{
+	max-width: 3rem;
+}
 .header{
 	&__logo{
 		max-width: 20rem;
@@ -187,6 +190,46 @@ a.navegador__link{
 		}
 		&:active{
 		color: white;
+		}
+	}
+}
+@media only screen and (max-width: 480px){
+	.footer{
+		&__autor{
+			position: relative;
+			bottom: 5rem;
+			text-align: center;
+		}
+		&__titRedes{
+			position: relative;
+			top: 8rem;
+		}
+		&__titulo{
+			position: relative;
+			bottom: 6rem;
+		}
+		&__contacto{
+			position: relative;
+			top: 8rem;
+			text-align: center;
+		}
+		&__logoIns{
+			position: relative;
+			left: -1.5rem;
+		}
+	}
+	.header{
+		&__logo{
+			display: none;
+		}
+		&__subTitulo{
+			display: none;
+		}
+		&__titulo{
+			font-size: 4rem;
+			margin: 1rem;
+			padding: 0rem;
+			text-align: center;
 		}
 	}
 }

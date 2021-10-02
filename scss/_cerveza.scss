@@ -22,3 +22,27 @@
 		border:solid .4rem $bgCol ;
 	}
 }
+@media only screen and (max-width: 480px){
+	.cerveza{
+		&__contenedor{
+			width: 100%;
+			height: auto;
+			background-color: white;
+		}
+		&__titulo{
+			background-color: white;
+			color: $bgCol;
+			position: relative;
+			left: 1rem;
+		}
+		&__parrafo{
+			position: relative;
+			left: 1rem;
+			text-align: center;
+		}
+		&__datos{
+			position: relative;
+			left: .5rem;
+		}
+	}
+}
