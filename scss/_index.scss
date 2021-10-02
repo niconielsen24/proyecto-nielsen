@@ -48,10 +48,12 @@ $desp:(
 			position: relative;
 			top: 7rem;
 		}
-		&__img{
-			padding: 0rem 10rem;
-		}
 	}
+	&__img{
+			position: relative;
+			top: 5rem;
+			left: 10rem;
+		}
 	&__parrafo1{
 		@include fuenteGen(4rem, 200);
 		position: fixed;

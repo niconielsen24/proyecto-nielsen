@@ -382,8 +382,11 @@ a.navegador__link {
     text-align: right;
     position: relative;
     top: 7rem; }
-  .index__parrafo__img {
-    padding: 0rem 10rem; }
+
+.index__img {
+  position: relative;
+  top: 5rem;
+  left: 10rem; }
 
 .index__parrafo1 {
   font-size: 4rem;
@@ -679,13 +682,6 @@ a.navegador__link {
   padding: 1rem 0rem;
   font-size: 2rem;
   font-weight: 200; }
-
-.userImg {
-  max-width: 5rem;
-  margin: 0rem 1rem;
-  background-color: white;
-  padding: 1rem;
-  border-radius: 3rem; }
 
 .nosotros__user {
   background: #272727;
