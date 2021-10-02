@@ -18,10 +18,24 @@
 		}
 	}
 	&__fuente{
+		color: grey;
 		text-align: center;
 		font:{
 			size:8rem;
 			family: 'UnifrakturMaguntia', cursive;
+		}
+		&:link{
+			color: grey;
+		}
+		&:visited{
+			color: grey;
+		}
+		&:hover{
+			color: grey;
+			text-decoration: none;
+		}
+		&:active{
+			color: grey;
 		}
 	}
 	&__producto{

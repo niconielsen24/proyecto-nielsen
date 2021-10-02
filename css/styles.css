@@ -11,6 +11,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap");
 * {
   font-size: 62.5%;
   list-style: none;
@@ -666,9 +668,19 @@ a.navegador__link {
     opacity: 0; }
 
 .productos__fuente {
+  color: grey;
   text-align: center;
   font-size: 8rem;
   font-family: 'UnifrakturMaguntia', cursive; }
+  .productos__fuente:link {
+    color: grey; }
+  .productos__fuente:visited {
+    color: grey; }
+  .productos__fuente:hover {
+    color: grey;
+    text-decoration: none; }
+  .productos__fuente:active {
+    color: grey; }
 
 .productos__producto {
   text-align: center;
@@ -831,3 +843,143 @@ a.navegador__link {
   border-radius: 2rem;
   background: #c0c0c0;
   box-shadow: inset 9px 9px 18px #4d4d4d, inset -9px -9px 18px #ffffff; }
+
+/* variables */
+/*Imports*/
+/*SCSS*/
+* {
+  font-size: 62.5%;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif; }
+
+h1 {
+  font-size: 8rem;
+  font-family: 'UnifrakturMaguntia', cursive;
+  text-transform: capitalize; }
+
+h2 {
+  font-size: 4rem;
+  font-weight: 400;
+  text-transform: capitalize; }
+
+h4 {
+  font-size: 2rem;
+  font-weight: 400; }
+
+p {
+  font-size: 2rem;
+  font-weight: 200; }
+
+.navegador__navegador {
+  background-color: white;
+  border-bottom: solid #9a7d0a 0.4rem; }
+
+.navegador__item {
+  transition: all .3s;
+  font-size: 4rem;
+  font-weight: 200;
+  font-family: 'Nunito', sans-serif; }
+  .navegador__item:hover {
+    transform: scale(1.1); }
+
+a.navegador__link {
+  text-transform: capitalize; }
+  a.navegador__link:link {
+    text-decoration: none;
+    color: black; }
+  a.navegador__link:visited {
+    text-decoration: none;
+    color: black; }
+  a.navegador__link:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: 400; }
+  a.navegador__link:active {
+    text-decoration: none;
+    color: black; }
+
+.header__logo {
+  max-width: 20rem;
+  max-height: auto;
+  margin: 2rem;
+  border: solid #9a7d0a 0.4rem; }
+
+.header__titulo {
+  text-align: center;
+  word-spacing: 2rem;
+  letter-spacing: 2rem; }
+
+.header__subTitulo {
+  text-align: center;
+  word-spacing: 4rem;
+  letter-spacing: 2rem; }
+
+.footer__footer {
+  background-color: #272727;
+  position: relative;
+  z-index: 4; }
+
+.footer__titulo {
+  text-align: center;
+  color: white;
+  padding: 1rem; }
+  .footer__titulo--a {
+    border: solid 0.4rem #9a7d0a;
+    font-size: 4rem;
+    font-family: 'UnifrakturMaguntia', cursive; }
+
+.footer__titRedes {
+  text-align: center; }
+
+.footer__contacto {
+  color: black;
+  font-size: 2rem;
+  font-weight: 200;
+  padding-top: 2rem; }
+
+.footer__logoIns {
+  text-align: center;
+  margin: 2rem; }
+
+.footer__logoInsImg {
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #9a7d0a;
+  transition: all .5s; }
+
+.footer__autor--p {
+  color: black;
+  font-size: 2rem; }
+
+.footer__nielsenNicolas {
+  font-size: 2rem;
+  font-weight: 200;
+  color: white; }
+  .footer__nielsenNicolas:link {
+    color: white; }
+  .footer__nielsenNicolas:visited {
+    color: white; }
+  .footer__nielsenNicolas:hover {
+    color: white;
+    text-decoration: none; }
+  .footer__nielsenNicolas:active {
+    color: white; }
+
+.cerveza__contenedor {
+  background-color: #272727;
+  height: 55rem; }
+
+.cerveza__titulo {
+  text-align: center;
+  color: white; }
+
+.cerveza__parrafo {
+  background-color: white;
+  padding: 2rem;
+  line-height: 5rem; }
+
+.cerveza__datos {
+  padding: 2rem;
+  margin: 1rem;
+  border: solid 0.4rem #272727; }
