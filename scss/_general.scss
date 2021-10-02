@@ -153,9 +153,10 @@ a.navegador__link{
 	}
 	&__titRedes{
 		text-align: center;
+		color: #6C6A6A;
 	}
 	&__contacto{
-		color: black;
+		color: #6C6A6A;
 		@include fuenteGen(2rem, 200);
 		padding-top: 2rem
 	}
@@ -171,7 +172,7 @@ a.navegador__link{
 	}
 	&__autor{
 		&--p{
-			color: black;
+			color: #6C6A6A;
 		font-size: 2rem;
 		}
 	}
